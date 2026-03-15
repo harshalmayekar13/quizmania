@@ -1,0 +1,952 @@
+[
+  {
+    "q": "What triggers a Google Search Ad to appear?",
+    "opts": [
+      "User visiting a website",
+      "User watching a video",
+      "User typing a search query",
+      "Opening a mobile app"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which pricing model is most common for Search Ads?",
+    "opts": [
+      "CPM (Cost per Mille)",
+      "CPC (Cost per Click)",
+      "Flat monthly fee",
+      "Cost per Impression"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Quality Score' based on?",
+    "opts": [
+      "Budget & Bidding",
+      "CTR, Relevance, & Landing Page",
+      "Number of keywords",
+      "Account age"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which keyword match type offers the most control?",
+    "opts": [
+      "Broad match",
+      "Phrase match",
+      "Exact match",
+      "Negative match"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the character limit for a Search Ad headline?",
+    "opts": [
+      "25 characters",
+      "30 characters",
+      "90 characters",
+      "15 characters"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does CTR stand for?",
+    "opts": [
+      "Click-Through Rate",
+      "Click-To-Revenue",
+      "Cost-To-Reach",
+      "Click-Time-Ratio"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which formula is used to calculate Ad Rank?",
+    "opts": [
+      "Bid x Quality Score",
+      "Bid + Budget",
+      "CTR / Impressions",
+      "Budget x Clicks"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the primary purpose of negative keywords?",
+    "opts": [
+      "To increase impressions",
+      "To block irrelevant traffic",
+      "To lower your bid",
+      "To increase ad size"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Where can Google Search Ads appear?",
+    "opts": [
+      "Only Google.com",
+      "Google and YouTube only",
+      "Google & Search Partners",
+      "Social media sites"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the 'Description' character limit in a Search Ad?",
+    "opts": [
+      "30 characters",
+      "60 characters",
+      "90 characters",
+      "120 characters"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which tool is used for finding new keywords?",
+    "opts": [
+      "Google Analytics",
+      "Google Search Console",
+      "Keyword Planner",
+      "Google Trends"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What does 'Conversion' mean in Google Ads?",
+    "opts": [
+      "A user seeing an ad",
+      "A user clicking an ad",
+      "A user taking a desired action",
+      "A user closing the ad"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which bid strategy is best for brand visibility?",
+    "opts": [
+      "Target CPA",
+      "Maximize Conversions",
+      "Target Impression Share",
+      "Manual CPC"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What does 'ROAS' stand for?",
+    "opts": [
+      "Return on Ad Spend",
+      "Rate of Ad Success",
+      "Return on Ad Speed",
+      "Reach of Ad Search"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What are 'Sitelinks'?",
+    "opts": [
+      "Links to social media",
+      "Extra links below an ad",
+      "Links to competitor sites",
+      "Paid links in emails"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is an 'Impression'?",
+    "opts": [
+      "A click on your ad",
+      "A sale from your ad",
+      "Your ad being displayed",
+      "A phone call from an ad"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which level holds the budget settings?",
+    "opts": [
+      "Account level",
+      "Campaign level",
+      "Ad Group level",
+      "Keyword level"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the goal of 'Smart Bidding'?",
+    "opts": [
+      "To lower manual work",
+      "To use AI for conversions",
+      "To fix broken links",
+      "To design ad images"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Responsive Search Ad' (RSA)?",
+    "opts": [
+      "An ad that changes color",
+      "Multiple headlines/desc. tested",
+      "An ad only for mobile",
+      "A video ad in search"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the CTR calculation formula?",
+    "opts": [
+      "(Clicks / Impressions) x 100",
+      "(Spend / Clicks) x 100",
+      "(Conversions / Clicks)",
+      "(Impressions / Spend)"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which extension shows your business phone number?",
+    "opts": [
+      "Sitelink extension",
+      "Call extension",
+      "Price extension",
+      "App extension"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'PPC' stand for?",
+    "opts": [
+      "Price Per Click",
+      "Pay Per Click",
+      "Paid Public Campaign",
+      "Priority Page Click"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which match type is indicated by brackets [keyword]?",
+    "opts": [
+      "Phrase match",
+      "Broad match",
+      "Exact match",
+      "Broad match modifier"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the maximum number of headlines in an RSA?",
+    "opts": [
+      "3",
+      "5",
+      "15",
+      "10"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which report shows exactly what users typed?",
+    "opts": [
+      "Auction Insights",
+      "Search Terms Report",
+      "Keyword Report",
+      "Budget Report"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bid strategy gets the most clicks within budget?",
+    "opts": [
+      "Target CPA",
+      "Maximize Clicks",
+      "Target ROAS",
+      "Enhanced CPC"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the main benefit of using Ad Extensions?",
+    "opts": [
+      "Lowering your bid",
+      "Increasing the CTR",
+      "Blocking competitors",
+      "Removing the display URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which match type uses the syntax: \"keyword\"?",
+    "opts": [
+      "Broad Match",
+      "Exact Match",
+      "Phrase Match",
+      "Negative Match"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What does the 'Search Terms Report' show?",
+    "opts": [
+      "Your competitors' keywords",
+      "What users actually searched for",
+      "Predicted future trends",
+      "Account billing history"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "At which level do you select geographic targeting?",
+    "opts": [
+      "Account Level",
+      "Campaign Level",
+      "Ad Group Level",
+      "Ad Level"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Callout Extension'?",
+    "opts": [
+      "A clickable phone number",
+      "Non-clickable text for features/benefits",
+      "A link to a specific page",
+      "A map of your location"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What happens if your Quality Score is very low?",
+    "opts": [
+      "You pay more for clicks",
+      "Your ad is automatically deleted",
+      "You get free impressions",
+      "Your budget is increased"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which metric measures how often an ad is shown?",
+    "opts": [
+      "CTR",
+      "Conversion Rate",
+      "Impressions",
+      "Quality Score"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the 'Final URL' in a Search Ad?",
+    "opts": [
+      "The display text link",
+      "The page the user lands on",
+      "The homepage of Google",
+      "The checkout page only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding strategy focuses on a specific cost per lead?",
+    "opts": [
+      "Target CPA",
+      "Maximize Clicks",
+      "Target Impression Share",
+      "Manual Bidding"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the 'Optimization Score' intended for?",
+    "opts": [
+      "To see competitor performance",
+      "To provide account improvement tips",
+      "To calculate your taxes",
+      "To measure website speed"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which ad component is most prominent to a user?",
+    "opts": [
+      "Description 1",
+      "Headlines",
+      "Path 1",
+      "Final URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is an 'Ad Group'?",
+    "opts": [
+      "A collection of campaigns",
+      "A group of related keywords and ads",
+      "A list of billing methods",
+      "A team of Google employees"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How many descriptions can a Responsive Search Ad have?",
+    "opts": [
+      "Up to 2",
+      "Up to 4",
+      "Up to 10",
+      "Up to 15"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which extension is best for showing a physical store address?",
+    "opts": [
+      "Sitelink Extension",
+      "Location Extension",
+      "Structured Snippet",
+      "Price Extension"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Actual CPC' represent?",
+    "opts": [
+      "The maximum you are willing to pay",
+      "The final amount you pay for a click",
+      "The average cost of all ads",
+      "The cost per thousand views"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which match type is most restrictive?",
+    "opts": [
+      "Broad Match",
+      "Phrase Match",
+      "Exact Match",
+      "Broad Match Modifier"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is a 'Structured Snippet'?",
+    "opts": [
+      "A link to a blog",
+      "A list of specific products/services",
+      "A discount code",
+      "A phone number"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which column shows the estimated health of an ad?",
+    "opts": [
+      "Ad Strength",
+      "Click Volume",
+      "Bid Status",
+      "Reach"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the primary purpose of 'Broad Match'?",
+    "opts": [
+      "To limit traffic to one word",
+      "To reach the widest possible audience",
+      "To target only specific people",
+      "To save money on bids"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bid strategy uses AI to predict conversion value?",
+    "opts": [
+      "Manual CPC",
+      "Target ROAS",
+      "Target Impression Share",
+      "Maximize Clicks"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Dayparting'?",
+    "opts": [
+      "Planning ads for weekends only",
+      "Scheduling ads for specific hours/days",
+      "Paying for ads once a day",
+      "Pausing ads during the day"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is calculated as (Cost / Conversions)?",
+    "opts": [
+      "CPC",
+      "CTR",
+      "CPA",
+      "CPM"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What does 'Ad Rank' determine?",
+    "opts": [
+      "Your account's credit limit",
+      "Your ad's position and eligibility",
+      "The number of keywords you can use",
+      "Your website's SEO ranking"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Remarketing' in Search Ads (RLSA)?",
+    "opts": [
+      "Targeting new customers",
+      "Targeting users who visited your site",
+      "Targeting people on social media",
+      "Changing your ad's font"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Above the fold' mean in landing pages?",
+    "opts": [
+      "The bottom of the page",
+      "Content visible without scrolling",
+      "The sidebar menu",
+      "The pop-up ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which attribution model gives all credit to the last click?",
+    "opts": [
+      "Linear",
+      "Time Decay",
+      "Last Click",
+      "Data-driven"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the 'Search Network'?",
+    "opts": [
+      "Only Google.com",
+      "Google sites and non-Google partners",
+      "Social media platforms only",
+      "Email inboxes"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which extension shows a map and store hours?",
+    "opts": [
+      "Sitelink",
+      "Callout",
+      "Location",
+      "Price"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Negative Match' syntax?",
+    "opts": [
+      "[keyword]",
+      "\"keyword\"",
+      "-keyword",
+      "+keyword"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the purpose of 'Drafts & Experiments'?",
+    "opts": [
+      "To delete old ads",
+      "To test changes before applying them",
+      "To find new keywords",
+      "To check billing errors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric tells you how often your ad was #1?",
+    "opts": [
+      "CTR",
+      "Absolute Top Impression Share",
+      "Impression Share",
+      "Quality Score"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Display URL' in a Search Ad?",
+    "opts": [
+      "The actual landing page link",
+      "The URL shown in the ad text",
+      "The link to Google Images",
+      "The link to the privacy policy"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'CPA' stand for?",
+    "opts": [
+      "Cost Per Action",
+      "Cost Per Advertisement",
+      "Click Per Account",
+      "Cash Per Acquisition"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which bid strategy is best for branding?",
+    "opts": [
+      "Target CPA",
+      "Target Impression Share",
+      "Maximize Conversions",
+      "Manual CPC"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Ad Rotation'?",
+    "opts": [
+      "Changing ad colors",
+      "How often ads in a group are shown",
+      "Moving ads to different sites",
+      "Changing the font size"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tab shows competitor performance?",
+    "opts": [
+      "Keywords",
+      "Auction Insights",
+      "Settings",
+      "Change History"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Lead Form Extension'?",
+    "opts": [
+      "A link to a blog",
+      "A way to collect user info in the ad",
+      "A phone dialer",
+      "A link to a YouTube video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Click Fraud' refer to?",
+    "opts": [
+      "Forgetting to pay Google",
+      "Invalid or malicious clicks",
+      "Clicking your own ad once",
+      "Using too many keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool helps forecast future performance?",
+    "opts": [
+      "Keyword Planner",
+      "Performance Planner",
+      "Google Trends",
+      "Reach Planner"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Dynamic Search Ads' (DSA)?",
+    "opts": [
+      "Ads with moving images",
+      "Ads generated based on site content",
+      "Ads that change every hour",
+      "Video ads in search"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding method is 'Auction-time'?",
+    "opts": [
+      "Manual CPC",
+      "Smart Bidding",
+      "Flat Rate",
+      "Periodic Bidding"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Landing Page Experience'?",
+    "opts": [
+      "The price of the product",
+      "How relevant/useful a page is",
+      "The number of images on a page",
+      "The font used on the site"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which match type is most prone to irrelevant traffic?",
+    "opts": [
+      "Exact Match",
+      "Phrase Match",
+      "Broad Match",
+      "Negative Match"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Enhanced CPC'?",
+    "opts": [
+      "A way to lower bids",
+      "Adjusting manual bids for conversions",
+      "Paying double for every click",
+      "A tool for writing ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Search Volume' mean?",
+    "opts": [
+      "The sound level of an ad",
+      "Number of searches for a keyword",
+      "The number of ads on a page",
+      "The size of the search bar"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which extension highlights 'Free Shipping'?",
+    "opts": [
+      "Call Extension",
+      "Callout Extension",
+      "App Extension",
+      "Image Extension"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'ROAS' measure?",
+    "opts": [
+      "Profit per employee",
+      "Revenue generated per ad spend",
+      "Website speed",
+      "Number of impressions"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Google Ads Editor'?",
+    "opts": [
+      "A tool for editing videos",
+      "A desktop app for bulk changes",
+      "A browser for searching",
+      "A photo editing tool"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which status means an ad is running?",
+    "opts": [
+      "Paused",
+      "Eligible",
+      "Pending",
+      "Disapproved"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Conversion Action'?",
+    "opts": [
+      "Clicking a button",
+      "The specific goal you want to track",
+      "Deleting a campaign",
+      "Changing a password"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Target Outranking Share'?",
+    "opts": [
+      "Bidding to beat a specific competitor",
+      "Bidding for the lowest price",
+      "Bidding for mobile only",
+      "Bidding for more clicks"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the 'MCC' account?",
+    "opts": [
+      "My Creative Center",
+      "My Client Center (Manager Account)",
+      "Main Campaign Controller",
+      "Money Control Center"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which column shows if your bid is too low?",
+    "opts": [
+      "Quality Score",
+      "Status (Below first page bid)",
+      "CTR",
+      "Impressions"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Geo-fencing'?",
+    "opts": [
+      "Targeting an entire country",
+      "Targeting a very specific radius",
+      "Targeting by language",
+      "Blocking all traffic"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows performance by day of week?",
+    "opts": [
+      "Time report",
+      "Location report",
+      "Landing page report",
+      "Keyword report"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Frequency Capping'?",
+    "opts": [
+      "Limiting ad spend",
+      "Limiting how often a user sees an ad",
+      "Limiting keywords",
+      "Limiting the number of ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'VTC' stand for?",
+    "opts": [
+      "View-Through Conversion",
+      "Value-To-Click",
+      "Voice-To-Command",
+      "Video-To-Customer"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which bidding strategy is strictly manual?",
+    "opts": [
+      "Target CPA",
+      "Maximize Conversions",
+      "Manual CPC",
+      "Target ROAS"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is a 'Promotion Extension'?",
+    "opts": [
+      "A link to a job",
+      "A special offer or discount code",
+      "A link to a partner site",
+      "A phone number"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Policy Violation' lead to?",
+    "opts": [
+      "Lower taxes",
+      "Ad disapproval or account suspension",
+      "More impressions",
+      "Lower click costs"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Conversions / Clicks)?",
+    "opts": [
+      "CTR",
+      "Conversion Rate",
+      "ROAS",
+      "CPC"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Price Extension'?",
+    "opts": [
+      "Shows costs of products/services",
+      "Increases your bid",
+      "Changes the currency",
+      "Shows the discount only"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Shared Library'?",
+    "opts": [
+      "A place to store images",
+      "Assets used across multiple campaigns",
+      "A list of competitors",
+      "A Google help center"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Audience Segments'?",
+    "opts": [
+      "Groups based on interests/demographics",
+      "Lists of keywords",
+      "Different ad formats",
+      "Types of bid strategies"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the 'Path' in a Search Ad?",
+    "opts": [
+      "The actual URL",
+      "Text added after the display domain",
+      "The user's journey",
+      "The campaign name"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What happens if you hit your daily budget?",
+    "opts": [
+      "Ads show for free",
+      "Ads stop showing for the day",
+      "Your bid increases",
+      "Google sends a bill"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which extension is for mobile apps?",
+    "opts": [
+      "Sitelink",
+      "App Extension",
+      "Call Extension",
+      "Price Extension"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Invalid Clicks'?",
+    "opts": [
+      "Clicks from teenagers",
+      "Clicks that are not real/genuine",
+      "Clicks on weekends",
+      "Clicks with no purchase"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Ad Relevance' measure?",
+    "opts": [
+      "How fast the ad loads",
+      "How well a keyword matches the ad",
+      "The color of the ad",
+      "The price of the product"
+    ],
+    "ans": 1
+  }
+]

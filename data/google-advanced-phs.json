@@ -1,0 +1,252 @@
+[
+  {
+    "q": "Problem: High ROAS but low net profit. Hypothesis: High-margin products aren't selling. Solution?",
+    "opts": [
+      "Increase total budget",
+      "Use Value-Based Bidding with profit margins",
+      "Lower all bids",
+      "Delete low-ROI keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Data-driven attribution (DDA) unavailable. Hypothesis: Conversion volume too low. Solution?",
+    "opts": [
+      "Switch to Last Click",
+      "Use Enhanced Conversions or aggregate data",
+      "Delete the account",
+      "Increase the budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High Internal Competition. Hypothesis: Keywords overlap across campaigns. Solution?",
+    "opts": [
+      "Increase all bids",
+      "Restructure with strict Negative Keyword mapping",
+      "Delete one campaign",
+      "Use Broad Match only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Script fails due to Selector limits. Hypothesis: Processing too many entities. Solution?",
+    "opts": [
+      "Delete the script",
+      "Use Iterators and filter by conditions",
+      "Increase the budget",
+      "Change the ad copy"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High CPC on brand keywords. Hypothesis: Competitor using your brand in ad copy. Solution?",
+    "opts": [
+      "Stop brand ads",
+      "File a Trademark Complaint with Google",
+      "Change your brand name",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: PMax is cannibalizing high-intent Search traffic. Hypothesis: Search themes too broad. Solution?",
+    "opts": [
+      "Delete PMax",
+      "Add exact match keywords to Search & negatives to PMax",
+      "Increase PMax budget",
+      "Do nothing"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Conversion value is Zero for many sales. Hypothesis: JavaScript error on Thank You page. Solution?",
+    "opts": [
+      "Change the ad copy",
+      "Audit the DataLayer and GTM tags",
+      "Increase the budget",
+      "Change the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High Invalid Click rate from one IP. Hypothesis: Competitor bot attack. Solution?",
+    "opts": [
+      "Stop the ads",
+      "Exclude specific IP addresses in settings",
+      "Change the URL",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: RLSA lists are not populating. Hypothesis: Audience size below 1,000 users. Solution?",
+    "opts": [
+      "Delete the list",
+      "Expand Top-of-Funnel traffic",
+      "Change the ad image",
+      "Lower the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High CPA for New Customers only. Hypothesis: Bidding doesn't distinguish new vs returning. Solution?",
+    "opts": [
+      "Stop the ads",
+      "Enable New Customer Acquisition goal",
+      "Change the budget",
+      "Use Broad Match"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Smart Bidding is Over-optimizing. Hypothesis: Target CPA set too low. Solution?",
+    "opts": [
+      "Lower the tCPA more",
+      "Gradually increase tCPA to allow more volume",
+      "Delete the campaign",
+      "Use Manual CPC"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Ad Customizers showing errors. Hypothesis: Feed/spreadsheet link is broken. Solution?",
+    "opts": [
+      "Delete the ad",
+      "Re-link the Business Data feed",
+      "Change the font",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High Lost IS Budget at 11 AM. Hypothesis: Daily budget exhausted too early. Solution?",
+    "opts": [
+      "Increase the bid",
+      "Increase budget or use Standard delivery",
+      "Change the keyword",
+      "Delete the ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: CRM data doesn't match Google Ads conversions. Hypothesis: Attribution window mismatch. Solution?",
+    "opts": [
+      "Stop tracking",
+      "Align the Lookback Window in Google Ads",
+      "Change the budget",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Click-to-Lead ratio is 1:100 (B2B). Hypothesis: Lead Magnet is not valuable enough. Solution?",
+    "opts": [
+      "Increase the bid",
+      "A/B test a more compelling Offer/Whitepaper",
+      "Change the ad copy",
+      "Add more keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: RSA has Low Ad Strength. Hypothesis: All headlines contain the same keyword. Solution?",
+    "opts": [
+      "Delete the ad",
+      "Use distinct USPs and benefits in headlines",
+      "Change the budget",
+      "Pin every headline"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: DSA targeting Login pages. Hypothesis: No URL Contains exclusions. Solution?",
+    "opts": [
+      "Stop DSA",
+      "Add Login as a Negative Dynamic Ad Target",
+      "Change the ad text",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High bounce rate on landing page experiment. Hypothesis: Mobile form is too long. Solution?",
+    "opts": [
+      "Add more fields",
+      "Shorten the form or use Lead Form Extensions",
+      "Delete the page",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Auction Insights show Overlap Rate over 50%. Hypothesis: Two campaigns bidding on same query. Solution?",
+    "opts": [
+      "Increase bids",
+      "Consolidation or use Portfolio Bidding",
+      "Delete the account",
+      "Change the ad color"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Seasonality adjustments made no impact. Hypothesis: Adjustment applied after the spike ended. Solution?",
+    "opts": [
+      "Delete the adjustment",
+      "Schedule adjustments before predicted spikes",
+      "Change the budget",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Conversion Rate is 0% on weekends. Hypothesis: Call Center is closed. Solution?",
+    "opts": [
+      "Double the budget",
+      "Use Ad Scheduling to pause during off-hours",
+      "Change the ad copy",
+      "Add more keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Value-Based Bidding is erratic. Hypothesis: Extreme Outlier values are skewing AI. Solution?",
+    "opts": [
+      "Stop VBB",
+      "Set a Conversion Value Cap or remove outliers",
+      "Change the budget",
+      "Use Max Clicks"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Low Top of Page share for key terms. Hypothesis: Competitors have higher QS and Bid. Solution?",
+    "opts": [
+      "Lower the bid",
+      "Audit Landing Page for Relevance and Speed",
+      "Delete the keywords",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Enhanced Conversions status is Not Working. Hypothesis: PII data not hashed correctly. Solution?",
+    "opts": [
+      "Change the ad text",
+      "Check GTM configuration for SHA-256 hashing",
+      "Increase the budget",
+      "Change the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Scaling budget leads to 2x higher CPA. Hypothesis: Reaching Diminishing Returns in niche. Solution?",
+    "opts": [
+      "Spend even more",
+      "Expand to Lookalike/Similar or New Channels",
+      "Delete the campaign",
+      "Lower the budget"
+    ],
+    "ans": 1
+  }
+]

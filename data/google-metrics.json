@@ -1,0 +1,252 @@
+[
+  {
+    "q": "If an ad has 1,000 Impressions and 50 Clicks, what is the CTR?",
+    "opts": [
+      "0.50%",
+      "5%",
+      "10%",
+      "2%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "You spent Rs.10,000 and received 200 Clicks. What is your CPC?",
+    "opts": [
+      "Rs.50",
+      "Rs.100",
+      "Rs.20",
+      "Rs.5"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "An ad group spent Rs.5,000 and generated 10 Conversions. What is the CPA?",
+    "opts": [
+      "Rs.50",
+      "Rs.500",
+      "Rs.250",
+      "Rs.1,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If your Conversion Rate is 10% and you have 200 Clicks, how many Conversions?",
+    "opts": [
+      "2",
+      "10",
+      "20",
+      "40"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Calculate ROAS: Total Revenue Rs.50,000 and Total Ad Spend Rs.10,000.",
+    "opts": [
+      "200%",
+      "500%",
+      "50%",
+      "1000%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If CPC is Rs.40 and CTR is 5%, what is the eCPM?",
+    "opts": [
+      "Rs.200",
+      "Rs.2,000",
+      "Rs.400",
+      "Rs.1,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "A campaign has 5,000 Impressions and a 2% CTR. How many Clicks?",
+    "opts": [
+      "10",
+      "100",
+      "50",
+      "200"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Total Cost is Rs.12,000 and CPA is Rs.600. How many Conversions?",
+    "opts": [
+      "10",
+      "20",
+      "30",
+      "15"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Conversion Rate: 500 Clicks and 25 Conversions.",
+    "opts": [
+      "2%",
+      "5%",
+      "10%",
+      "1%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If Ad Rank is 20 and Quality Score is 5, what is the Max CPC Bid?",
+    "opts": [
+      "2",
+      "4",
+      "10",
+      "100"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Revenue is Rs.8,000 and ROAS is 400%. What was the Ad Spend?",
+    "opts": [
+      "Rs.2,000",
+      "Rs.1,000",
+      "Rs.32,000",
+      "Rs.4,000"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "If you have 10,000 Impressions and an eCPM of Rs.50, what is the Total Cost?",
+    "opts": [
+      "Rs.500",
+      "Rs.5,000",
+      "Rs.50,000",
+      "Rs.50"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "An ad has 40 Clicks and 2 Conversions. What is the Conversion Rate?",
+    "opts": [
+      "5%",
+      "10%",
+      "2%",
+      "20%"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the CTR if Impressions are 2,500 and Clicks are 125?",
+    "opts": [
+      "1%",
+      "5%",
+      "10%",
+      "0.50%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If Daily Budget is Rs.1,000, what is the maximum Google might charge in one day?",
+    "opts": [
+      "Rs.1,000",
+      "Rs.2,000",
+      "Rs.1,200",
+      "Rs.3,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "A keyword has a CTR of 10% and 400 Impressions. How many Clicks?",
+    "opts": [
+      "4",
+      "40",
+      "400",
+      "14"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If Spend is Rs.15,000 and you got 300 Clicks, what is the CPC?",
+    "opts": [
+      "Rs.45",
+      "Rs.30",
+      "Rs.50",
+      "Rs.150"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Total Revenue Rs.1,00,000. Total Spend Rs.20,000. What is the ROAS?",
+    "opts": [
+      "2",
+      "5",
+      "10",
+      "0.5"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If CPA is Rs.1,200 and you have 5 Conversions, what is the Total Cost?",
+    "opts": [
+      "Rs.6,000",
+      "Rs.2,400",
+      "Rs.1,205",
+      "Rs.12,000"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "8,000 Impressions, 160 Clicks. What is the CTR?",
+    "opts": [
+      "1.60%",
+      "2.00%",
+      "0.20%",
+      "20%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If you want a CPA of Rs.500 and CR is 5%, what should your Max CPC be?",
+    "opts": [
+      "Rs.10",
+      "Rs.25",
+      "Rs.50",
+      "Rs.100"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Cost is Rs.9,000. Impressions are 1,00,000. What is the CPM?",
+    "opts": [
+      "Rs.9",
+      "Rs.90",
+      "Rs.0.90",
+      "Rs.900"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "You have 1,000 Clicks and 10 Conversions. What is the CR?",
+    "opts": [
+      "1%",
+      "0.10%",
+      "10%",
+      "0.01%"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Profit per sale is Rs.200 and CPA is Rs.150. What is net profit per conversion?",
+    "opts": [
+      "Rs.350",
+      "Rs.50",
+      "Rs.150",
+      "Rs.0"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Total Spend: CPC is Rs.15, Clicks are 1,200.",
+    "opts": [
+      "Rs.12,000",
+      "Rs.18,000",
+      "Rs.15,000",
+      "Rs.20,000"
+    ],
+    "ans": 1
+  }
+]
