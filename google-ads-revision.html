@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learn Google Ads — Revision Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f5f0;
+  --white: #ffffff;
+  --navy: #0d1b2a;
+  --navy2: #1a2e45;
+  --gold: #e8a020;
+  --gold2: #f5c060;
+  --teal: #1e8a7a;
+  --red: #d63b2f;
+  --blue: #2563eb;
+  --purple: #7c3aed;
+  --slate: #64748b;
+  --border: #e2ddd4;
+  --shadow: 0 4px 24px rgba(13,27,42,0.08);
+  --shadow-lg: 0 12px 48px rgba(13,27,42,0.13);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+body { font-family: 'Mulish', sans-serif; background: var(--bg); color: var(--navy); line-height: 1.7; }
+
+/* ── HEADER ── */
+.site-header {
+  background: var(--navy);
+  padding: 18px 40px;
+  display: flex; align-items: center; justify-content: space-between;
+  position: sticky; top: 0; z-index: 200;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.25);
+}
+.site-logo { font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800; color: #fff; letter-spacing: -0.5px; }
+.site-logo span { color: var(--gold); }
+.header-tag { font-size: 0.72rem; color: #8a9bb0; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; }
+
+/* ── HERO ── */
+.hero {
+  background: var(--navy);
+  padding: 64px 40px 80px;
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(232,160,32,0.12) 0%, transparent 60%);
+}
+.hero-inner { max-width: 860px; margin: 0 auto; position: relative; }
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(232,160,32,0.15); border: 1px solid rgba(232,160,32,0.3);
+  color: var(--gold2); font-size: 0.75rem; font-weight: 700;
+  padding: 5px 14px; border-radius: 50px; letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 24px;
+}
+.hero h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-weight: 800; color: #fff; line-height: 1.1;
+  margin-bottom: 18px; letter-spacing: -1px;
+}
+.hero h1 em { color: var(--gold); font-style: normal; }
+.hero p { color: #a0b0c0; font-size: 1.05rem; max-width: 560px; line-height: 1.75; margin-bottom: 36px; }
+.hero-stats { display: flex; gap: 36px; flex-wrap: wrap; }
+.stat { }
+.stat-num { font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800; color: var(--gold); }
+.stat-label { font-size: 0.76rem; color: #7a8fa0; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+
+/* ── STICKY NAV TABS ── */
+.topics-nav-wrap {
+  background: var(--white);
+  border-bottom: 2px solid var(--border);
+  position: sticky; top: 61px; z-index: 190;
+  box-shadow: 0 2px 12px rgba(13,27,42,0.06);
+}
+.topics-nav {
+  max-width: 1100px; margin: 0 auto;
+  display: flex; overflow-x: auto; scrollbar-width: none;
+  padding: 0 16px;
+}
+.topics-nav::-webkit-scrollbar { display: none; }
+.topic-tab {
+  display: flex; align-items: center; gap: 6px;
+  padding: 13px 18px; font-size: 0.82rem; font-weight: 600;
+  color: var(--slate); white-space: nowrap; cursor: pointer;
+  border: none; background: none; font-family: 'Mulish', sans-serif;
+  border-bottom: 3px solid transparent; margin-bottom: -2px;
+  transition: all 0.2s; letter-spacing: 0.2px;
+  text-decoration: none;
+}
+.topic-tab:hover { color: var(--navy); }
+.topic-tab.active { color: var(--navy); border-bottom-color: var(--gold); }
+.topic-tab .t-icon { font-size: 0.95rem; }
+
+/* ── MAIN LAYOUT ── */
+.main-wrap { max-width: 900px; margin: 0 auto; padding: 52px 24px 100px; }
+
+/* ── SECTION ── */
+.section {
+  margin-bottom: 72px;
+  animation: fadeUp 0.5s ease both;
+}
+@keyframes fadeUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+
+.section-header {
+  display: flex; align-items: flex-start; gap: 16px;
+  margin-bottom: 28px; padding-bottom: 20px;
+  border-bottom: 2px solid var(--border);
+}
+.section-icon {
+  width: 46px; height: 46px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem; flex-shrink: 0; margin-top: 2px;
+}
+.section-title-block {}
+.section-num { font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--slate); margin-bottom: 4px; }
+.section-title { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 800; color: var(--navy); line-height: 1.2; }
+
+/* Colors */
+.ic-gold { background: #fef3c7; }
+.ic-teal { background: #d1fae5; }
+.ic-blue { background: #dbeafe; }
+.ic-red { background: #fee2e2; }
+.ic-purple { background: #ede9fe; }
+.ic-navy { background: #e0e7ef; }
+.ic-orange { background: #ffedd5; }
+.ic-pink { background: #fce7f3; }
+.ic-green { background: #dcfce7; }
+.ic-slate { background: #f1f5f9; }
+
+/* ── PROSE ── */
+.prose p { font-size: 0.97rem; color: #3a4a5a; margin-bottom: 14px; line-height: 1.8; }
+.prose p:last-child { margin-bottom: 0; }
+.prose strong { color: var(--navy); font-weight: 700; }
+
+/* ── CARDS GRID ── */
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin: 20px 0; }
+.card {
+  background: var(--white); border-radius: 14px;
+  padding: 20px 22px; border: 1.5px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.card-title { font-family: 'Syne', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; display: flex; align-items: center; gap: 7px; }
+.card-title .badge { font-size: 0.65rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 2px 8px; border-radius: 20px; }
+.badge-gold { background: #fef3c7; color: #92400e; }
+.badge-teal { background: #d1fae5; color: #065f46; }
+.badge-blue { background: #dbeafe; color: #1e40af; }
+.badge-red { background: #fee2e2; color: #991b1b; }
+.badge-purple { background: #ede9fe; color: #5b21b6; }
+.card-desc { font-size: 0.84rem; color: var(--slate); line-height: 1.65; }
+
+/* ── TABLE ── */
+.table-wrap { overflow-x: auto; margin: 20px 0; border-radius: 14px; border: 1.5px solid var(--border); box-shadow: var(--shadow); }
+table { width: 100%; border-collapse: collapse; background: var(--white); }
+th { background: var(--navy); color: #fff; font-family: 'Syne', sans-serif; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 13px 16px; text-align: left; }
+td { padding: 12px 16px; font-size: 0.87rem; color: #3a4a5a; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #fafaf7; }
+td strong { color: var(--navy); font-weight: 700; }
+
+/* ── CALLOUT BOX ── */
+.callout {
+  border-radius: 14px; padding: 20px 22px;
+  margin: 18px 0; border-left: 4px solid;
+  font-size: 0.9rem; line-height: 1.75;
+}
+.callout-gold { background: #fffbeb; border-color: var(--gold); color: #78350f; }
+.callout-teal { background: #f0fdf4; border-color: var(--teal); color: #14532d; }
+.callout-blue { background: #eff6ff; border-color: var(--blue); color: #1e3a8a; }
+.callout-red { background: #fff5f5; border-color: var(--red); color: #7f1d1d; }
+.callout strong { font-weight: 700; }
+
+/* ── LIST ITEMS ── */
+.item-list { list-style: none; margin: 16px 0; }
+.item-list li {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+  font-size: 0.9rem; color: #3a4a5a;
+}
+.item-list li:last-child { border-bottom: none; }
+.item-list li::before { content: '▸'; color: var(--gold); font-size: 0.75rem; margin-top: 4px; flex-shrink: 0; }
+.item-list li strong { color: var(--navy); }
+
+/* ── HIERARCHY TREE ── */
+.hierarchy { background: var(--white); border-radius: 14px; border: 1.5px solid var(--border); padding: 24px; margin: 16px 0; box-shadow: var(--shadow); }
+.h-level { margin-left: 0; }
+.h-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; font-size: 0.9rem; }
+.h-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
+.h-dot-1 { background: var(--navy); }
+.h-dot-2 { background: var(--gold); }
+.h-dot-3 { background: var(--teal); }
+.h-dot-4 { background: var(--red); }
+.h-sub { margin-left: 28px; border-left: 2px solid var(--border); padding-left: 16px; }
+
+/* ── FUNNEL PHASES ── */
+.phase-block {
+  background: var(--white); border-radius: 14px;
+  border: 1.5px solid var(--border); padding: 22px 24px;
+  margin-bottom: 14px; box-shadow: var(--shadow);
+}
+.phase-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.phase-num { width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-size: 0.85rem; font-weight: 800; color: #fff; flex-shrink: 0; }
+.phase-title { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; color: var(--navy); }
+.phase-sub { font-size: 0.78rem; color: var(--slate); font-weight: 500; }
+.phase-content { font-size: 0.87rem; color: #3a4a5a; line-height: 1.7; }
+
+/* ── SECTION DIVIDER ── */
+.divider { width: 48px; height: 4px; background: linear-gradient(90deg, var(--gold), var(--gold2)); border-radius: 2px; margin: 12px 0 20px; }
+
+/* ── BACK TO TOP ── */
+.back-top {
+  position: fixed; bottom: 28px; right: 24px; z-index: 300;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--navy); color: #fff; border: none; cursor: pointer;
+  font-size: 1.1rem; box-shadow: 0 4px 16px rgba(13,27,42,0.3);
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s; opacity: 0; pointer-events: none;
+}
+.back-top.visible { opacity: 1; pointer-events: all; }
+.back-top:hover { background: var(--gold); transform: translateY(-2px); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 600px) {
+  .site-header { padding: 14px 18px; }
+  .hero { padding: 40px 18px 56px; }
+  .main-wrap { padding: 32px 16px 80px; }
+  .cards-grid { grid-template-columns: 1fr; }
+  .section-title { font-size: 1.3rem; }
+  .topic-tab { padding: 11px 13px; font-size: 0.78rem; }
+  .hero-stats { gap: 22px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-logo">Quiz<span>mania</span> <span style="color:#8a9bb0;font-size:0.8rem;font-weight:400;">/ Learn</span></div>
+  <div class="header-tag">Google Ads Revision</div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">📚 Revision Guide</div>
+    <h1>Master <em>Google Ads</em><br>From Zero to Expert</h1>
+    <p>A structured, no-fluff revision guide covering everything from the fundamentals to advanced bidding strategies, attribution models, and real case studies.</p>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">12</div><div class="stat-label">Topics</div></div>
+      <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Concepts</div></div>
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Case Studies</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STICKY TOPIC TABS -->
+<nav class="topics-nav-wrap" id="topicsNav">
+  <div class="topics-nav">
+    <a href="#foundations" class="topic-tab active"><span class="t-icon">🏗️</span>Foundations</a>
+    <a href="#campaign-types" class="topic-tab"><span class="t-icon">📢</span>Campaign Types</a>
+    <a href="#bidding" class="topic-tab"><span class="t-icon">💰</span>Bidding</a>
+    <a href="#targeting" class="topic-tab"><span class="t-icon">🎯</span>Targeting</a>
+    <a href="#ad-formats" class="topic-tab"><span class="t-icon">🖼️</span>Ad Formats</a>
+    <a href="#extensions" class="topic-tab"><span class="t-icon">🔗</span>Extensions</a>
+    <a href="#audiences" class="topic-tab"><span class="t-icon">👥</span>Audiences</a>
+    <a href="#attribution" class="topic-tab"><span class="t-icon">📊</span>Attribution</a>
+    <a href="#measurement" class="topic-tab"><span class="t-icon">📈</span>Measurement</a>
+    <a href="#remarketing" class="topic-tab"><span class="t-icon">🔄</span>Remarketing</a>
+    <a href="#when-to-use" class="topic-tab"><span class="t-icon">🗺️</span>When to Use</a>
+    <a href="#case-studies" class="topic-tab"><span class="t-icon">💼</span>Case Studies</a>
+  </div>
+</nav>
+
+<div class="main-wrap">
+
+  <!-- ══════════════════════════════════════════
+  1. FOUNDATIONS
+  ══════════════════════════════════════════ -->
+  <section class="section" id="foundations">
+    <div class="section-header">
+      <div class="section-icon ic-gold">🏗️</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 01</div>
+        <div class="section-title">The Foundation: What is Google Ads?</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="prose">
+      <p>Google Ads is an online advertising platform where businesses <strong>bid to display ads</strong> to users at the exact moment they are searching for products or services. It primarily operates on a <strong>Pay-Per-Click (PPC)</strong> model — you only pay when someone clicks your ad.</p>
+    </div>
+
+    <div class="callout callout-gold">
+      <strong>The Ad Auction:</strong> Every time a user searches, a real-time auction is triggered. The winner is determined by <strong>Ad Rank = Bid × Quality Score + Ad Extension Impact</strong>.
+    </div>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:700;margin:24px 0 12px;color:var(--navy);">Quality Score is based on:</h3>
+    <ul class="item-list">
+      <li><strong>Expected CTR</strong> — How likely your ad is to be clicked</li>
+      <li><strong>Ad Relevance</strong> — How well your ad matches the user's search intent</li>
+      <li><strong>Landing Page Experience</strong> — How relevant, useful, and fast your landing page is</li>
+    </ul>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:700;margin:24px 0 12px;color:var(--navy);">Account Structure Hierarchy</h3>
+    <div class="hierarchy">
+      <div class="h-level">
+        <div class="h-item"><span class="h-dot h-dot-1"></span><div><strong>Account</strong> — Unique login, billing, and settings</div></div>
+        <div class="h-sub">
+          <div class="h-item"><span class="h-dot h-dot-2"></span><div><strong>Campaign</strong> — Budget, targeting, bidding strategy</div></div>
+          <div class="h-sub">
+            <div class="h-item"><span class="h-dot h-dot-3"></span><div><strong>Ad Group</strong> — Themed set of keywords and ads</div></div>
+            <div class="h-sub">
+              <div class="h-item"><span class="h-dot h-dot-4"></span><div><strong>Keywords</strong> — Trigger words for your ads</div></div>
+              <div class="h-item"><span class="h-dot h-dot-4"></span><div><strong>Ads</strong> — The creative users see</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout-blue">
+      <strong>MCC (Manager Account / My Client Center):</strong> A master account that lets you manage multiple Google Ads accounts from a single dashboard. Essential for agencies.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  2. CAMPAIGN TYPES
+  ══════════════════════════════════════════ -->
+  <section class="section" id="campaign-types">
+    <div class="section-header">
+      <div class="section-icon ic-teal">📢</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 02</div>
+        <div class="section-title">Campaign Types</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-title">🔍 Search <span class="badge badge-blue">Most Common</span></div>
+        <div class="card-desc">Text ads on Google Search Results. Triggered by keywords. Best for high-intent users ready to buy or take action.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">🖼️ Display</div>
+        <div class="card-desc">Image/text ads across 2M+ websites on the Google Display Network. Great for brand awareness and remarketing.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">🛍️ Shopping</div>
+        <div class="card-desc">Product ads with image, price, and store name. Managed via Google Merchant Center. Ideal for e-commerce.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">▶️ Video</div>
+        <div class="card-desc">Video ads on YouTube and Google video partners. Multiple formats — skippable, non-skippable, bumper, in-feed.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">📱 App</div>
+        <div class="card-desc">Drives app installs and in-app actions across Search, Play, YouTube, and Display. Fully automated by Google AI.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">⚡ Performance Max <span class="badge badge-gold">Latest</span></div>
+        <div class="card-desc">Single campaign across ALL Google channels. Provide assets + goals; AI handles the rest. Best for high-volume conversions.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">💡 Demand Gen</div>
+        <div class="card-desc">Visual ads on YouTube Home, Gmail, and Discover feeds. Targets users in a discovery mindset. Formerly Discovery Ads.</div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin:28px 0 14px;color:var(--navy);">Search Sub-Types</h3>
+    <ul class="item-list">
+      <li><strong>Responsive Search Ads (RSA)</strong> — Up to 15 headlines + 4 descriptions; Google AI finds best combinations</li>
+      <li><strong>Dynamic Search Ads (DSA)</strong> — Auto-generates ads from website content; great for large catalogs</li>
+      <li><strong>Call-Only Ads</strong> — Mobile only; clicking dials your business directly</li>
+    </ul>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin:28px 0 14px;color:var(--navy);">Video Sub-Types</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Format</th><th>Length</th><th>Skippable?</th><th>Bidding</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Skippable In-Stream</strong></td><td>Any</td><td>After 5 sec</td><td>CPV</td></tr>
+          <tr><td><strong>Non-Skippable In-Stream</strong></td><td>≤15 sec</td><td>No</td><td>CPM</td></tr>
+          <tr><td><strong>Bumper Ads</strong></td><td>≤6 sec</td><td>No</td><td>CPM</td></tr>
+          <tr><td><strong>In-Feed Video</strong></td><td>Any</td><td>Click to watch</td><td>CPV</td></tr>
+          <tr><td><strong>Outstream</strong></td><td>Any</td><td>Auto-play off</td><td>vCPM</td></tr>
+          <tr><td><strong>Masthead</strong></td><td>Any</td><td>Premium/Reserved</td><td>Reservation</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-teal">
+      <strong>💡 Cost Insight:</strong> Non-skippable and Bumper ads are most expensive per impression (CPM) because they guarantee a full view. Skippable In-Stream can be expensive per view if targeting is poor.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  3. BIDDING
+  ══════════════════════════════════════════ -->
+  <section class="section" id="bidding">
+    <div class="section-header">
+      <div class="section-icon ic-blue">💰</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 03</div>
+        <div class="section-title">Bidding Strategies</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Strategy</th><th>Goal</th><th>Requires Conversions?</th><th>Best For</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Manual CPC</strong></td><td>Full control</td><td>No</td><td>Small budgets, testing</td></tr>
+          <tr><td><strong>Enhanced CPC (eCPC)</strong></td><td>Semi-automated</td><td>Recommended</td><td>Manual + AI assist</td></tr>
+          <tr><td><strong>Maximize Clicks</strong></td><td>Most clicks in budget</td><td>No</td><td>Traffic generation</td></tr>
+          <tr><td><strong>Maximize Conversions</strong></td><td>Most conversions</td><td>Yes</td><td>Lead/sale volume</td></tr>
+          <tr><td><strong>Target CPA (tCPA)</strong></td><td>Set cost per lead/sale</td><td>Min 15/30 days</td><td>Lead generation</td></tr>
+          <tr><td><strong>Target ROAS (tROAS)</strong></td><td>Set revenue per ₹ spent</td><td>Min 20/30 days</td><td>E-commerce sales</td></tr>
+          <tr><td><strong>Maximize Conv. Value</strong></td><td>Most revenue</td><td>Yes (with values)</td><td>E-commerce</td></tr>
+          <tr><td><strong>Target Impression Share</strong></td><td>Appear % of time</td><td>No</td><td>Branding</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px;">
+      <div class="callout callout-gold" style="margin:0;">
+        <strong>tCPA — Target Cost Per Acquisition</strong><br>
+        You set the average cost per lead (e.g., ₹500). Google adjusts bids per auction to hit that target. Lower tCPA = less volume but more efficiency. Higher tCPA = more volume but less efficiency.
+      </div>
+      <div class="callout callout-teal" style="margin:0;">
+        <strong>tROAS — Target Return on Ad Spend</strong><br>
+        You set the revenue multiplier (e.g., 400% = ₹4 for every ₹1 spent). Lower tROAS = more scale. Higher tROAS = more profitable but limited volume.
+      </div>
+    </div>
+
+    <div class="callout callout-blue" style="margin-top:16px;">
+      <strong>Portfolio Bidding Strategy:</strong> A single Smart Bidding strategy applied across multiple campaigns simultaneously — useful for managing budgets at scale.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  4. TARGETING
+  ══════════════════════════════════════════ -->
+  <section class="section" id="targeting">
+    <div class="section-header">
+      <div class="section-icon ic-red">🎯</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 04</div>
+        <div class="section-title">Targeting Options</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin-bottom:14px;color:var(--navy);">Keyword Match Types</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Match Type</th><th>Syntax</th><th>Reach</th><th>Control</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Broad Match</strong></td><td>keyword</td><td>Widest</td><td>Lowest</td></tr>
+          <tr><td><strong>Phrase Match</strong></td><td>"keyword"</td><td>Medium</td><td>Medium</td></tr>
+          <tr><td><strong>Exact Match</strong></td><td>[keyword]</td><td>Narrowest</td><td>Highest</td></tr>
+          <tr><td><strong>Negative Match</strong></td><td>-keyword</td><td>Exclusion</td><td>Blocks irrelevant traffic</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-gold" style="margin-top:16px;">
+      <strong>💡 Pro Tip:</strong> Always use Negative Keywords to filter out irrelevant traffic. Check the <strong>Search Terms Report</strong> weekly to find new negatives.
+    </div>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin:24px 0 14px;color:var(--navy);">Other Targeting Methods</h3>
+    <ul class="item-list">
+      <li><strong>Location Targeting</strong> — Country, city, radius. Set at campaign level.</li>
+      <li><strong>Device Targeting</strong> — Desktop, mobile, tablet. Set bid adjustments per device.</li>
+      <li><strong>Dayparting (Ad Schedule)</strong> — Show ads only during specific hours/days.</li>
+      <li><strong>Language Targeting</strong> — Target users by browser/Google interface language.</li>
+      <li><strong>Demographic Targeting</strong> — Age, gender, parental status, household income.</li>
+    </ul>
+
+    <div class="callout callout-blue">
+      <strong>Separate Ad Groups for Competitor vs. Generic Keywords:</strong> Always separate them. Competitor keywords need specific "why switch" messaging; generic keywords need broader benefit-driven copy. Mixing them leads to poor Quality Scores and messy data.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  5. AD FORMATS
+  ══════════════════════════════════════════ -->
+  <section class="section" id="ad-formats">
+    <div class="section-header">
+      <div class="section-icon ic-purple">🖼️</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 05</div>
+        <div class="section-title">Ad Formats</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-title">📝 Responsive Search Ads</div>
+        <div class="card-desc">Up to 15 headlines (30 chars each), 4 descriptions (90 chars). Google AI tests combinations. Headline shows in blue; description below.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">🤖 Dynamic Search Ads</div>
+        <div class="card-desc">Google crawls your site and auto-generates ads. Great for large catalogs and capturing long-tail queries you didn't think of.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">🖼️ Responsive Display Ads</div>
+        <div class="card-desc">Provide headlines, descriptions, logos, images. Google assembles them to fit any ad space on the Display Network.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">🛒 Shopping Ads</div>
+        <div class="card-desc">Image + title + price + store name shown directly in search results. Fed by Google Merchant Center product feed.</div>
+      </div>
+    </div>
+
+    <div class="callout callout-gold" style="margin-top:4px;">
+      <strong>Dynamic Keyword Insertion (DKI):</strong> Use <code style="background:#fde68a;padding:1px 5px;border-radius:3px;">{KeyWord:Default Text}</code> in headlines. Google auto-inserts the matching keyword into the ad, boosting relevance and CTR. If keyword is too long, the default text is used.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  6. EXTENSIONS / ASSETS
+  ══════════════════════════════════════════ -->
+  <section class="section" id="extensions">
+    <div class="section-header">
+      <div class="section-icon ic-orange">🔗</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 06</div>
+        <div class="section-title">Ad Extensions (Assets)</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="prose"><p>Extensions add more information to your ads, increasing ad size and CTR without extra cost. They also improve Ad Rank. Now called <strong>Assets</strong> in the Google Ads interface.</p></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Extension</th><th>What It Shows</th><th>Clickable?</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Sitelink</strong></td><td>Extra links to specific pages (e.g. Contact, Pricing)</td><td>Yes</td></tr>
+          <tr><td><strong>Callout</strong></td><td>Short highlights: "Free Shipping", "24/7 Support"</td><td>No</td></tr>
+          <tr><td><strong>Structured Snippet</strong></td><td>List of services/products: "Types: Plumbing, Electric"</td><td>No</td></tr>
+          <tr><td><strong>Call</strong></td><td>Phone number in the ad</td><td>Yes (calls)</td></tr>
+          <tr><td><strong>Location</strong></td><td>Business address + map pin</td><td>Yes (maps)</td></tr>
+          <tr><td><strong>Lead Form</strong></td><td>User fills a form directly from the ad</td><td>Yes (form)</td></tr>
+          <tr><td><strong>Price</strong></td><td>Products/services with prices</td><td>Yes</td></tr>
+          <tr><td><strong>Promotion</strong></td><td>Discounts and special offers</td><td>Yes</td></tr>
+          <tr><td><strong>Image</strong></td><td>Relevant image next to text ad</td><td>Yes</td></tr>
+          <tr><td><strong>App</strong></td><td>Link to app on Play/App Store</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  7. AUDIENCES
+  ══════════════════════════════════════════ -->
+  <section class="section" id="audiences">
+    <div class="section-header">
+      <div class="section-icon ic-pink">👥</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 07</div>
+        <div class="section-title">Audience Types</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Audience Type</th><th>Who They Are</th><th>Funnel Stage</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Your Data Segments</strong><br><small>(Remarketing)</small></td><td>Past website visitors, cart abandoners, app users, YouTube viewers, Customer Match lists</td><td>Bottom — Hottest leads</td></tr>
+          <tr><td><strong>In-Market Segments</strong></td><td>Actively researching & comparing products like yours right now</td><td>Middle — High intent</td></tr>
+          <tr><td><strong>Affinity Segments</strong></td><td>Long-term interests and passions (e.g. "Travel Enthusiasts")</td><td>Top — Awareness</td></tr>
+          <tr><td><strong>Custom Segments</strong></td><td>Build your own: by search terms they use, websites they visit, apps they use</td><td>Any — Very precise</td></tr>
+          <tr><td><strong>Detailed Demographics</strong></td><td>Homeowners, parents of infants, college graduates, married etc.</td><td>Any — Life stage</td></tr>
+          <tr><td><strong>Life Events</strong></td><td>Getting married, moving house, graduating, starting a business</td><td>Top/Mid — Trigger-based</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-teal" style="margin-top:16px;">
+      <strong>Observation vs. Targeting Mode:</strong><br>
+      <strong>Observation</strong> — Shows ads to everyone but lets you track and bid-adjust for specific audiences.<br>
+      <strong>Targeting</strong> — Restricts ads only to the selected audience. More focused, smaller reach.
+    </div>
+
+    <div class="callout callout-blue">
+      <strong>RLSA (Remarketing Lists for Search Ads):</strong> Use your remarketing lists on Search campaigns. Bid higher for past visitors who are searching your keywords again — they already know you and are far more likely to convert.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  8. ATTRIBUTION
+  ══════════════════════════════════════════ -->
+  <section class="section" id="attribution">
+    <div class="section-header">
+      <div class="section-icon ic-green">📊</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 08</div>
+        <div class="section-title">Attribution Models</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="prose">
+      <p>An attribution model decides which ad touchpoint gets <strong>credit for a conversion</strong>. The customer journey today is multi-step — a user might click a Display ad, then a Generic Search ad, then a Brand Search ad before buying. Which ad gets credit?</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Model</th><th>Credit Assignment</th><th>Best For</th><th>Limitation</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Last Click</strong></td><td>100% to last click</td><td>Brand/closing keywords</td><td>Ignores upper-funnel</td></tr>
+          <tr><td><strong>First Click</strong></td><td>100% to first click</td><td>Awareness campaigns</td><td>Ignores closing actions</td></tr>
+          <tr><td><strong>Linear</strong></td><td>Equal split across all clicks</td><td>Short, simple journeys</td><td>Doesn't show high/low value</td></tr>
+          <tr><td><strong>Time Decay</strong></td><td>More credit to recent clicks</td><td>Short sales cycles</td><td>Undervalues early touchpoints</td></tr>
+          <tr><td><strong>Position-Based</strong></td><td>40% first + 40% last + 20% middle</td><td>Balanced view</td><td>Fixed rule, not data-driven</td></tr>
+          <tr><td><strong>Data-Driven (DDA)</strong> ⭐</td><td>ML assigns credit based on real impact</td><td>Best practice — use this</td><td>Needs conversion volume</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-gold">
+      <strong>✅ Recommendation:</strong> Always use <strong>Data-Driven Attribution (DDA)</strong>. It uses machine learning to assign credit based on your specific historical data, giving the most accurate picture of what's actually driving conversions.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  9. MEASUREMENT
+  ══════════════════════════════════════════ -->
+  <section class="section" id="measurement">
+    <div class="section-header">
+      <div class="section-icon ic-slate">📈</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 09</div>
+        <div class="section-title">Measurement, Tools & Reporting</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin-bottom:14px;color:var(--navy);">Key Metrics</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Metric</th><th>Formula</th><th>What it Tells You</th></tr></thead>
+        <tbody>
+          <tr><td><strong>CTR</strong></td><td>(Clicks / Impressions) × 100</td><td>Ad relevance & appeal</td></tr>
+          <tr><td><strong>CPC</strong></td><td>Cost / Clicks</td><td>Cost efficiency of clicks</td></tr>
+          <tr><td><strong>CPA</strong></td><td>Cost / Conversions</td><td>Cost per lead/sale</td></tr>
+          <tr><td><strong>CVR</strong></td><td>(Conversions / Clicks) × 100</td><td>Landing page effectiveness</td></tr>
+          <tr><td><strong>ROAS</strong></td><td>Revenue / Ad Spend</td><td>Revenue return per ₹ spent</td></tr>
+          <tr><td><strong>CPM</strong></td><td>(Cost / Impressions) × 1000</td><td>Cost per 1,000 impressions</td></tr>
+          <tr><td><strong>Impression Share</strong></td><td>Impressions / Eligible Impressions</td><td>Market coverage</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin:24px 0 14px;color:var(--navy);">Key Tools</h3>
+    <ul class="item-list">
+      <li><strong>Keyword Planner</strong> — Find new keywords, search volume, and bid estimates</li>
+      <li><strong>Performance Planner</strong> — Forecast performance with different budgets</li>
+      <li><strong>Search Terms Report</strong> — See actual queries that triggered your ads</li>
+      <li><strong>Auction Insights</strong> — Compare your performance vs. competitors</li>
+      <li><strong>Google Ads Editor</strong> — Desktop app for bulk offline changes</li>
+      <li><strong>Google Ads Scripts</strong> — JavaScript automation for advanced tasks</li>
+      <li><strong>Experiments</strong> — A/B test campaigns, bidding strategies, creatives</li>
+      <li><strong>Labels</strong> — Tag campaigns/ad groups/keywords for easy filtering & reporting</li>
+    </ul>
+
+    <div class="callout callout-red">
+      <strong>⚠️ High CTR ≠ Successful Ad.</strong> A high CTR only means people are clicking. If clicks don't convert, the ad is wasting budget. Always pair CTR with Conversion Rate, CPA, and ROAS to get the full picture. Common causes of high CTR + low conversions: clickbait copy, wrong landing page, slow page speed, wrong audience.
+    </div>
+
+    <div class="callout callout-teal">
+      <strong>Enhanced Conversions:</strong> Sends hashed (SHA-256) first-party data (email, phone) to Google to recover conversions lost due to cookie restrictions. Improves Smart Bidding accuracy and future-proofs measurement against privacy changes.
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  10. REMARKETING
+  ══════════════════════════════════════════ -->
+  <section class="section" id="remarketing">
+    <div class="section-header">
+      <div class="section-icon ic-navy">🔄</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 10</div>
+        <div class="section-title">Remarketing</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="prose"><p>Remarketing reconnects with users who've already visited your site or interacted with your brand. They are <strong>warm audiences</strong> — much more likely to convert than cold traffic.</p></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Type</th><th>What It Does</th><th>Best Campaign</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Standard Remarketing</strong></td><td>Shows generic ads to past website visitors</td><td>Display</td></tr>
+          <tr><td><strong>Dynamic Remarketing</strong></td><td>Shows exact products the user viewed on your site</td><td>Display / PMax</td></tr>
+          <tr><td><strong>RLSA</strong></td><td>Adjusts bids/ads for past visitors actively searching on Google</td><td>Search</td></tr>
+          <tr><td><strong>Video Remarketing</strong></td><td>Targets users who watched your YouTube videos</td><td>Video</td></tr>
+          <tr><td><strong>Customer Match</strong></td><td>Targets existing customers via uploaded email lists</td><td>Search / Display / YouTube</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  11. WHEN TO USE WHICH FORMAT
+  ══════════════════════════════════════════ -->
+  <section class="section" id="when-to-use">
+    <div class="section-header">
+      <div class="section-icon ic-gold">🗺️</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 11</div>
+        <div class="section-title">Full-Funnel: When to Use Which Format</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-num" style="background:var(--blue);">1</div>
+        <div><div class="phase-title">Pre-Launch / Brand Awareness</div><div class="phase-sub">User is unaware of your product</div></div>
+      </div>
+      <div class="phase-content">
+        Use <strong>YouTube Non-Skippable + Bumper Ads</strong> for guaranteed attention. Use <strong>Display (GDN)</strong> for visual presence at scale. Target broad <strong>Affinity Audiences</strong> and <strong>Demographics</strong>.
+      </div>
+    </div>
+
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-num" style="background:var(--teal);">2</div>
+        <div><div class="phase-title">Consideration</div><div class="phase-sub">User is researching and comparing</div></div>
+      </div>
+      <div class="phase-content">
+        Use <strong>Google Search Ads (RSAs)</strong> with generic + category keywords. Use <strong>In-Feed Video Ads</strong> for product demos and tutorials. Layer <strong>In-Market Audiences</strong> on Search for higher bids.
+      </div>
+    </div>
+
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-num" style="background:var(--gold);">3</div>
+        <div><div class="phase-title">Conversion / Sales</div><div class="phase-sub">User is ready to buy</div></div>
+      </div>
+      <div class="phase-content">
+        Use <strong>Shopping Ads</strong> for product-specific searches. Use <strong>Search Ads with strong CTAs</strong> on branded + high-intent long-tail keywords. Use <strong>Call-Only Ads</strong> for service businesses. Use <strong>Lead Form Extensions</strong> to reduce friction.
+      </div>
+    </div>
+
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-num" style="background:var(--red);">4</div>
+        <div><div class="phase-title">Retention / Loyalty</div><div class="phase-sub">Existing customers</div></div>
+      </div>
+      <div class="phase-content">
+        Use <strong>Customer Match</strong> to target existing customers with exclusive offers. Use <strong>Dynamic Remarketing (Display)</strong> for up-sells and cross-sells. Use <strong>Video Remarketing</strong> to stay top-of-mind.
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+  12. CASE STUDIES
+  ══════════════════════════════════════════ -->
+  <section class="section" id="case-studies">
+    <div class="section-header">
+      <div class="section-icon ic-teal">💼</div>
+      <div class="section-title-block">
+        <div class="section-num">Topic 12</div>
+        <div class="section-title">Case Studies</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <!-- Samsung -->
+    <div style="background:var(--white);border-radius:16px;border:1.5px solid var(--border);padding:28px;margin-bottom:24px;box-shadow:var(--shadow);">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;">
+        <div style="width:42px;height:42px;background:#1a2e45;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;">📱</div>
+        <div>
+          <div style="font-family:'Syne',sans-serif;font-size:1.15rem;font-weight:800;color:var(--navy);">Samsung Phone Launch — ₹70,000 Phone</div>
+          <div style="font-size:0.78rem;color:var(--slate);">Total Budget: ₹10,00,000 over 30 days</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div style="background:#eff6ff;border-radius:10px;padding:16px;">
+          <div style="font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:#1e40af;margin-bottom:8px;">📅 Pre-Launch (15 days) — ₹3,00,000</div>
+          <div style="font-size:0.83rem;color:#1e3a8a;line-height:1.7;">
+            <strong>Goal:</strong> Awareness + pre-order leads<br>
+            <strong>Campaign 1:</strong> Performance Max — YouTube teasers, Display images, broad audiences<br>
+            <strong>Campaign 2:</strong> Search — Branded + competitor keywords with Lead Form extensions<br>
+            <strong>Bidding:</strong> Maximize Conversions + Target CPA (₹200/lead)
+          </div>
+        </div>
+        <div style="background:#f0fdf4;border-radius:10px;padding:16px;">
+          <div style="font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:#065f46;margin-bottom:8px;">📅 Post-Launch (15 days) — ₹7,00,000</div>
+          <div style="font-size:0.83rem;color:#14532d;line-height:1.7;">
+            <strong>Goal:</strong> Direct sales & market share<br>
+            <strong>Campaign 1:</strong> Performance Max with product feed (Shopping) + Customer Match from pre-launch leads<br>
+            <strong>Campaign 2:</strong> Search — Branded, long-tail, review keywords<br>
+            <strong>Bidding:</strong> Target ROAS (400%) + Price/Promotion extensions
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navi -->
+    <div style="background:var(--white);border-radius:16px;border:1.5px solid var(--border);padding:28px;margin-bottom:24px;box-shadow:var(--shadow);">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;">
+        <div style="width:42px;height:42px;background:#065f46;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;">🏥</div>
+        <div>
+          <div style="font-family:'Syne',sans-serif;font-size:1.15rem;font-weight:800;color:var(--navy);">Navi Health Insurance Launch</div>
+          <div style="font-size:0.78rem;color:var(--slate);">Total Budget: ₹10,00,000 over 30 days | Avg CPC: ₹30–₹70</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div style="background:#eff6ff;border-radius:10px;padding:16px;">
+          <div style="font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:#1e40af;margin-bottom:8px;">Pre-Launch — ₹4,00,000</div>
+          <div style="font-size:0.83rem;color:#1e3a8a;line-height:1.7;">
+            Broad + competitor keywords. Target: "Notify Me" form sign-ups.<br>
+            Est. ~10,000 clicks @ ₹40 CPC → <strong>500–1,000 leads</strong>
+          </div>
+        </div>
+        <div style="background:#f0fdf4;border-radius:10px;padding:16px;">
+          <div style="font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:#065f46;margin-bottom:8px;">Post-Launch — ₹6,00,000</div>
+          <div style="font-size:0.83rem;color:#14532d;line-height:1.7;">
+            High-intent + branded keywords. Remarketing pre-launch list via Customer Match.<br>
+            Est. ~12,000 clicks @ ₹50 CPC → <strong>240–600 policy sales</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout-gold">
+      <strong>Key Lesson from Both Case Studies:</strong> The pre-launch phase builds a warm audience (leads). The post-launch phase converts that warm audience using Customer Match + Performance Max. The two phases work together — never run them in isolation.
+    </div>
+  </section>
+
+</div><!-- /main-wrap -->
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// ── Active tab highlight on scroll ──
+const sections = document.querySelectorAll('.section');
+const tabs = document.querySelectorAll('.topic-tab');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const id = entry.target.id;
+      tabs.forEach(t => t.classList.remove('active'));
+      const active = document.querySelector(`.topic-tab[href="#${id}"]`);
+      if (active) {
+        active.classList.add('active');
+        active.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+  });
+}, { rootMargin: '-20% 0px -70% 0px' });
+
+sections.forEach(s => observer.observe(s));
+
+// ── Back to top button ──
+const backTop = document.getElementById('backTop');
+window.addEventListener('scroll', () => {
+  backTop.classList.toggle('visible', window.scrollY > 400);
+});
+
+// ── Smooth scroll for tab clicks with offset ──
+tabs.forEach(tab => {
+  tab.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector(tab.getAttribute('href'));
+    if (target) {
+      const offset = 130;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>
