@@ -1,0 +1,502 @@
+[
+  {
+    "q": "What is the primary benefit of 'Data-Driven Attribution'?",
+    "opts": [
+      "It uses fixed percentages",
+      "It uses AI to credit touchpoints",
+      "It only credits the first click",
+      "It ignores mobile clicks"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which script can pause ads based on weather conditions?",
+    "opts": [
+      "Google Ads Scripts",
+      "HTML5",
+      "Python",
+      "CSS"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What does 'Auction Insights' allow you to see?",
+    "opts": [
+      "Competitor keyword lists",
+      "Competitor overlap & outranking",
+      "Competitor's exact budget",
+      "Competitor's Quality Score"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Portfolio Bidding Strategy'?",
+    "opts": [
+      "Bidding on one keyword",
+      "Bidding across multiple campaigns",
+      "A manual bidding tool",
+      "A social media strategy"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which feature allows you to insert a countdown in an ad?",
+    "opts": [
+      "Ad Customizers",
+      "Sitelinks",
+      "Callouts",
+      "Structured Snippets"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Target ROAS' bidding based on?",
+    "opts": [
+      "Fixed cost per click",
+      "Conversion value",
+      "Number of impressions",
+      "Ad Rank only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How does 'Value-Based Bidding' differ from standard?",
+    "opts": [
+      "Focuses on clicks",
+      "Focuses on high-value customers",
+      "It is cheaper",
+      "It is strictly manual"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the purpose of 'Custom Intent Audiences'?",
+    "opts": [
+      "Reach users based on searches",
+      "Reach users based on age",
+      "Reach users based on name",
+      "Reach users based on salary"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which metric measures 'Lost IS (Rank)'?",
+    "opts": [
+      "Budget lost",
+      "Impressions lost due to low rank",
+      "Clicks lost to competitors",
+      "Quality Score loss"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Offline Conversion Tracking' (OCT)?",
+    "opts": [
+      "Tracking store visits manually",
+      "Importing CRM data into Ads",
+      "Tracking phone calls only",
+      "Tracking TV ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the role of the 'gclid' parameter?",
+    "opts": [
+      "To track Google Click ID",
+      "To change ad colors",
+      "To increase site speed",
+      "To block spam"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which bid strategy requires a minimum conversion volume?",
+    "opts": [
+      "Target ROAS",
+      "Manual CPC",
+      "Maximize Clicks",
+      "CPM"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What are 'Customer Match' lists?",
+    "opts": [
+      "Lists of competitors",
+      "Uploaded first-party email data",
+      "Lists of keywords",
+      "Lists of negative sites"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Seasonality Adjustment' used for?",
+    "opts": [
+      "Long-term trends",
+      "Short-term spikes (e.g., sales)",
+      "Changing ad fonts",
+      "Weather tracking"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Standard Deviation' in experiments indicate?",
+    "opts": [
+      "Budget health",
+      "Statistical significance",
+      "Number of ads",
+      "Ad size"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Bidding Signal' in Smart Bidding?",
+    "opts": [
+      "Time of day, location, intent",
+      "Only the keyword",
+      "Only the bid amount",
+      "The color of the ad"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Incremental Reach'?",
+    "opts": [
+      "Total impressions",
+      "New users reached vs. previous",
+      "Total clicks",
+      "Average position"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool helps manage multiple accounts at once?",
+    "opts": [
+      "Google Search",
+      "Google Ads Editor",
+      "Google Chrome",
+      "Google Maps"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'In-Market Audience'?",
+    "opts": [
+      "People who like marketing",
+      "People actively researching to buy",
+      "People who live in a city",
+      "People who own a market"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Auction-time Bidding' advantage?",
+    "opts": [
+      "It is slower",
+      "Evaluates every single auction",
+      "It is cheaper than manual",
+      "It uses less data"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Linear Attribution' do?",
+    "opts": [
+      "Credits only the first click",
+      "Distributes credit equally",
+      "Credits only the last click",
+      "Credits the middle click"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Cross-Device Conversion'?",
+    "opts": [
+      "Clicks on one device, buy on another",
+      "Clicking two ads at once",
+      "Buying two products",
+      "Selling on two sites"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Smart Bidding with Maximize Conversion Value'?",
+    "opts": [
+      "Spend less money",
+      "Get the most revenue for budget",
+      "Get the most clicks",
+      "Get the most impressions"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What are 'Negative Keyword Lists' used for?",
+    "opts": [
+      "Increasing costs",
+      "Applying negatives across campaigns",
+      "To target competitors",
+      "To find new keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Overview' tab used for?",
+    "opts": [
+      "Billing only",
+      "Visual data summaries",
+      "Deleting campaigns",
+      "Writing new ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Ad Strength' for RSA?",
+    "opts": [
+      "The bid amount",
+      "Relevance, quantity, and variety",
+      "The ad's font weight",
+      "The size of the image"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Value Rules' in bidding?",
+    "opts": [
+      "Rules to adjust conversion value",
+      "Rules for negative keywords",
+      "Rules for employee access",
+      "Rules for site speed"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What does 'Invalid Traffic' include?",
+    "opts": [
+      "New customers",
+      "Bot clicks or accidental clicks",
+      "Clicks from different cities",
+      "Clicks on weekends"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows where your ads appeared on partners?",
+    "opts": [
+      "Placements Report",
+      "Search Terms Report",
+      "Keyword Report",
+      "Budget Report"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Enhanced Conversions'?",
+    "opts": [
+      "More expensive ads",
+      "Uses hashed first-party data",
+      "Ads with more text",
+      "Faster landing pages"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'IF' function in ad customizers?",
+    "opts": [
+      "A logic to change text by device",
+      "A way to pause ads",
+      "A billing formula",
+      "A keyword type"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Target CPA' at the Ad Group level?",
+    "opts": [
+      "A shared budget",
+      "A specific cost per action for group",
+      "A way to delete ads",
+      "A link to social media"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Lookback Window'?",
+    "opts": [
+      "The size of the ad",
+      "Time after click to record conversion",
+      "The history of the account",
+      "The font size"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Micro-Conversion'?",
+    "opts": [
+      "A sale",
+      "A smaller action (e.g., add to cart)",
+      "A cheap click",
+      "A short ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Performance Max' primarily?",
+    "opts": [
+      "Keyword-only campaign",
+      "Goal-based cross-channel campaign",
+      "Video-only campaign",
+      "Email-only campaign"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Store Visit Conversions'?",
+    "opts": [
+      "Tracking physical visits via GPS",
+      "Tracking online sales",
+      "Tracking phone calls",
+      "Tracking ad views"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What does 'Time Decay' attribution do?",
+    "opts": [
+      "Credits older clicks more",
+      "Credits clicks closer to conversion",
+      "Credits all clicks equally",
+      "Credits no clicks"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Parallel Tracking'?",
+    "opts": [
+      "Loading tracking in the background",
+      "Running two ads at once",
+      "Tracking two websites",
+      "Using two budgets"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Search Partner Network' inclusion?",
+    "opts": [
+      "Shows ads on Amazon",
+      "Shows ads on non-Google search sites",
+      "Shows ads on TV",
+      "Shows ads in apps only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Click-to-Message' extension?",
+    "opts": [
+      "Texting the business from the ad",
+      "Sending an email",
+      "Opening a chat bot",
+      "Calling the business"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Drafts' in Google Ads?",
+    "opts": [
+      "Deleted ads",
+      "A mirrored setup for testing",
+      "A list of keywords",
+      "A billing summary"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Audience Exclusion'?",
+    "opts": [
+      "Targeting everyone",
+      "Removing specific groups from seeing ads",
+      "Removing keywords",
+      "Removing negative ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Affinity Audience'?",
+    "opts": [
+      "People ready to buy now",
+      "People with long-term interests",
+      "People who hate ads",
+      "People with no internet"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Target Impression Share'?",
+    "opts": [
+      "Bidding for a specific position",
+      "Bidding for more sales",
+      "Bidding for the lowest price",
+      "Bidding for more video views"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Dynamic Ad Targets'?",
+    "opts": [
+      "Specific pages for DSA to crawl",
+      "Keywords for RSA",
+      "Images for Display",
+      "Videos for YouTube"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Change History' useful for?",
+    "opts": [
+      "Tracking who made what change",
+      "Changing the account name",
+      "Deleting the account",
+      "Paying the bill"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Campaign Groups'?",
+    "opts": [
+      "A way to organize related campaigns",
+      "A group of users",
+      "A list of ads",
+      "A set of keywords"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'First-Click Attribution'?",
+    "opts": [
+      "Credits the last action",
+      "Credits the very first touchpoint",
+      "Credits the middle action",
+      "Credits the sale only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'MCC' API?",
+    "opts": [
+      "Manual Credit Card",
+      "Programming access for accounts",
+      "Main Creative Code",
+      "My Client Calendar"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Broad Match Modifier' (legacy)?",
+    "opts": [
+      "+keyword",
+      "[keyword]",
+      "\"keyword\"",
+      "-keyword"
+    ],
+    "ans": 0
+  }
+]

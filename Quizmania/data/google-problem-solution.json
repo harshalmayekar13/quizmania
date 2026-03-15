@@ -1,0 +1,502 @@
+[
+  {
+    "q": "Problem: High Clicks but Zero Conversions. Hypothesis: Landing page isn't relevant. Solution?",
+    "opts": [
+      "Increase Bid",
+      "Change Landing Page Content",
+      "Add more keywords",
+      "Change Ad Image"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High CPC in a competitive niche. Hypothesis: Quality Score is low. Solution?",
+    "opts": [
+      "Double the budget",
+      "Improve Ad Relevance & CTR",
+      "Delete the campaign",
+      "Switch to Manual Bidding"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Ad is not showing at all. Hypothesis: Budget is too low for the auction. Solution?",
+    "opts": [
+      "Change the font",
+      "Increase Daily Budget",
+      "Add negative keywords",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High Bounce Rate on mobile. Hypothesis: Page loads too slowly. Solution?",
+    "opts": [
+      "Add more text",
+      "Optimize mobile page speed",
+      "Remove mobile targeting",
+      "Increase mobile bids"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Low CTR for a Top Position ad. Hypothesis: Ad copy is not engaging. Solution?",
+    "opts": [
+      "Move to Position 2",
+      "Test new Headlines/CTAs",
+      "Lower the bid",
+      "Change the keyword"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Search Terms Report shows junk traffic. Hypothesis: Match types are too broad. Solution?",
+    "opts": [
+      "Increase budget",
+      "Add Negative Keywords",
+      "Use more Broad Match",
+      "Change the Logo"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Sales dropped after changing Bids. Hypothesis: Bids are now too low to win. Solution?",
+    "opts": [
+      "Wait 1 month",
+      "Revert or increase bids",
+      "Delete all ads",
+      "Change the product price"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Many Add to Cart but no Purchase. Hypothesis: Checkout process is broken. Solution?",
+    "opts": [
+      "Run more ads",
+      "Audit the checkout flow",
+      "Change the ad color",
+      "Increase shipping cost"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Impression Share is under 20%. Hypothesis: Budget is severely capped. Solution?",
+    "opts": [
+      "Lower the budget",
+      "Increase Budget or Bids",
+      "Use fewer keywords",
+      "Change the ad group"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: ROAS is 0.5 (Losing money). Hypothesis: CPC is higher than profit. Solution?",
+    "opts": [
+      "Spend more",
+      "Optimize for high-value keywords",
+      "Hire more staff",
+      "Change the company name"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Ad Rank is dropping daily. Hypothesis: Competitors increased bids. Solution?",
+    "opts": [
+      "Do nothing",
+      "Increase bids or Quality Score",
+      "Decrease bids",
+      "Change the landing page"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: RSA shows Poor Ad Strength. Hypothesis: Not enough unique headlines. Solution?",
+    "opts": [
+      "Delete the ad",
+      "Add 15 unique headlines",
+      "Change the budget",
+      "Use only 1 headline"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High traffic from wrong cities. Hypothesis: Location targeting is too wide. Solution?",
+    "opts": [
+      "Stop the ads",
+      "Use Radius or City Targeting",
+      "Change the language",
+      "Add more keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Brand ads are too expensive. Hypothesis: Competitors are bidding on your name. Solution?",
+    "opts": [
+      "Stop brand ads",
+      "Increase Brand Bid/Advantage",
+      "Change your brand name",
+      "Call the competitor"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Keywords have Low Search Volume. Hypothesis: Keywords are too specific. Solution?",
+    "opts": [
+      "Delete them",
+      "Use broader Match Types",
+      "Increase the bid",
+      "Add more negatives"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Conversion tracking stopped. Hypothesis: Website tag was removed. Solution?",
+    "opts": [
+      "Change the ad copy",
+      "Re-install Global Site Tag",
+      "Increase the budget",
+      "Change the bid strategy"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Campaign performs well then crashes. Hypothesis: Competitor launched a sale. Solution?",
+    "opts": [
+      "Delete campaign",
+      "Run a counter-promotion",
+      "Change the URL",
+      "Ignore it"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Sitelinks aren't showing. Hypothesis: Ad Rank is too low. Solution?",
+    "opts": [
+      "Add more sitelinks",
+      "Improve Quality Score/Bid",
+      "Change the description",
+      "Delete the extensions"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Clicks are coming from Apps. Hypothesis: Display Network is enabled. Solution?",
+    "opts": [
+      "Increase app bids",
+      "Disable Search Partners/Display",
+      "Add more app keywords",
+      "Change the ad text"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High Cost but no Leads for B2B. Hypothesis: Traffic is Informational not Buyer. Solution?",
+    "opts": [
+      "Spend more",
+      "Use Bottom of Funnel keywords",
+      "Change the font",
+      "Add more broad match"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Ad disapproved for Mismatched URL. Hypothesis: Display URL differs from Final URL. Solution?",
+    "opts": [
+      "Delete the account",
+      "Fix URLs to match domain",
+      "Change the bid",
+      "Change the headline"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Lead quality is very poor. Hypothesis: Ad copy is too clickbaity. Solution?",
+    "opts": [
+      "Lower the bid",
+      "Qualify users in the ad copy",
+      "Add more images",
+      "Use Broad Match"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: CTR is high but Time-on-Page is 2s. Hypothesis: Ad click is misleading. Solution?",
+    "opts": [
+      "Increase the bid",
+      "Align ad copy with page content",
+      "Add more pop-ups",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Optimization Score is 40%. Hypothesis: Many recommendations ignored. Solution?",
+    "opts": [
+      "Delete the account",
+      "Apply relevant recommendations",
+      "Change the budget",
+      "Change the password"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Remarketing list is not growing. Hypothesis: Privacy/Consent mode issue. Solution?",
+    "opts": [
+      "Increase bids",
+      "Check Consent Mode setup",
+      "Change the ad image",
+      "Add more keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Auction Insights shows a new player. Hypothesis: Market entry by competitor. Solution?",
+    "opts": [
+      "Stop ads",
+      "Monitor and adjust bidding",
+      "Change your brand logo",
+      "Lower your budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: No clicks on a weekend. Hypothesis: B2B audience is inactive. Solution?",
+    "opts": [
+      "Double weekend budget",
+      "Set an Ad Schedule (Mon-Fri)",
+      "Change the ad copy",
+      "Add more keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Performance Max is stealing search traffic. Hypothesis: Overlapping keywords. Solution?",
+    "opts": [
+      "Delete PMax",
+      "Add Negatives to PMax/Search",
+      "Increase PMax budget",
+      "Do nothing"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: DSA targeting junk. Hypothesis: Website indexing is poor. Solution?",
+    "opts": [
+      "Increase bids",
+      "Use URL-specific targets",
+      "Change the ad text",
+      "Delete the website"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: CPA is rising weekly. Hypothesis: Creative fatigue. Solution?",
+    "opts": [
+      "Lower the bid",
+      "Refresh Ad Copy and Assets",
+      "Stop all ads",
+      "Increase the budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Search Terms show competitor names. Hypothesis: Using Broad Match. Solution?",
+    "opts": [
+      "Increase bids",
+      "Add Competitors as Negatives",
+      "Use more Broad Match",
+      "Change your brand name"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Call Extension gets no clicks. Hypothesis: Business is closed during ad hours. Solution?",
+    "opts": [
+      "Increase bid",
+      "Schedule extension for hours",
+      "Remove the number",
+      "Change the number"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Low Top of Page rate. Hypothesis: Bids are below market average. Solution?",
+    "opts": [
+      "Add more keywords",
+      "Use Target Impression Share bid",
+      "Delete the campaign",
+      "Change the ad color"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: CPC is Rs.200 for Rs.10 product. Hypothesis: Bidding on wrong intent keywords. Solution?",
+    "opts": [
+      "Spend more",
+      "Target long-tail, low-cost keywords",
+      "Stop the business",
+      "Increase product price"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Broad Match is spending too much. Hypothesis: No negative keyword guardrails. Solution?",
+    "opts": [
+      "Delete keywords",
+      "Build a robust Negative List",
+      "Increase the bid",
+      "Use only 1 keyword"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Account suspended for Payments. Hypothesis: Credit card expired. Solution?",
+    "opts": [
+      "Change the ad copy",
+      "Update Billing Method",
+      "Add more keywords",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Sitelink CTR is 0%. Hypothesis: Sitelink text is boring. Solution?",
+    "opts": [
+      "Delete sitelinks",
+      "Use benefit-driven sitelink text",
+      "Increase sitelink bid",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Conversions are being double-counted. Hypothesis: Tracking tag fires twice. Solution?",
+    "opts": [
+      "Stop tracking",
+      "Set Count: One in settings",
+      "Increase the budget",
+      "Delete the tag"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Smart Bidding isn't Learning. Hypothesis: Not enough conversion data. Solution?",
+    "opts": [
+      "Switch to Target ROAS",
+      "Switch to Manual CPC/Max Clicks",
+      "Increase the budget",
+      "Delete the campaign"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Landing page Not found (404). Hypothesis: URL was changed but ad wasn't. Solution?",
+    "opts": [
+      "Change the bid",
+      "Update Final URL in ads",
+      "Delete the ad",
+      "Add more keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Click volume is dropping. Hypothesis: Market search volume is seasonal. Solution?",
+    "opts": [
+      "Increase bids",
+      "Check Google Trends & adjust",
+      "Delete the account",
+      "Add more broad match"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Responsive Ads not serving. Hypothesis: Too many Pinned headlines. Solution?",
+    "opts": [
+      "Pin more",
+      "Unpin headlines to let AI test",
+      "Change the budget",
+      "Delete the ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High traffic but no leads for local biz. Hypothesis: Users are too far away. Solution?",
+    "opts": [
+      "Increase budget",
+      "Tighten Location Radius",
+      "Change the ad text",
+      "Use Broad Match"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Below First Page Bid status. Hypothesis: Bid is too low for entry. Solution?",
+    "opts": [
+      "Add more keywords",
+      "Raise bid to estimated first page",
+      "Delete the keyword",
+      "Change the landing page"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Search partners spending 90% budget. Hypothesis: Partners are cheap but low intent. Solution?",
+    "opts": [
+      "Increase partner bid",
+      "Opt-out of Search Partners",
+      "Add more keywords",
+      "Change the ad text"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Script keeps failing. Hypothesis: API limit reached or syntax error. Solution?",
+    "opts": [
+      "Delete the script",
+      "Debug code or check permissions",
+      "Change the ad copy",
+      "Increase the budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Limited by Budget status. Hypothesis: Daily spend cap is too low. Solution?",
+    "opts": [
+      "Lower the bid",
+      "Increase Budget or lower bids",
+      "Add more keywords",
+      "Change the URL"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Image extensions not showing. Hypothesis: Account doesn't meet requirements. Solution?",
+    "opts": [
+      "Delete images",
+      "Check account age/compliance",
+      "Change the image size",
+      "Increase the budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: High CPC on Brand keywords. Hypothesis: Low Quality Score on brand. Solution?",
+    "opts": [
+      "Stop brand ads",
+      "Improve Landing Page relevance",
+      "Change your brand name",
+      "Increase the bid"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Problem: Automated bids spending too fast. Hypothesis: No Max CPC cap on Max Clicks. Solution?",
+    "opts": [
+      "Stop the ads",
+      "Set a Max CPC Limit",
+      "Increase the budget",
+      "Change the keywords"
+    ],
+    "ans": 1
+  }
+]
