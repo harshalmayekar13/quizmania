@@ -26,6 +26,13 @@
   .logo { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 900; color: var(--white); letter-spacing: -0.5px; }
   .logo span { color: var(--gold); }
   .tagline-header { font-size: 0.75rem; color: var(--slate); letter-spacing: 2px; text-transform: uppercase; font-weight: 500; }
+  .header-nav { display: flex; align-items: center; gap: 6px; }
+  .header-nav a {
+    color: var(--slate); font-size: 0.82rem; font-weight: 500;
+    text-decoration: none; padding: 7px 14px; border-radius: 8px;
+    transition: all 0.2s; letter-spacing: 0.3px; white-space: nowrap;
+  }
+  .header-nav a:hover { color: var(--white); background: rgba(255,255,255,0.08); }
 
   /* SCREENS */
   .screen { display: none; }
@@ -36,7 +43,18 @@
     background: var(--white); border-bottom: 2px solid rgba(201,168,76,0.15);
     position: sticky; top: 57px; z-index: 90;
     box-shadow: 0 2px 12px rgba(13,27,42,0.06);
+    display: flex; align-items: center;
   }
+  .tabs-scroll-btn {
+    flex-shrink: 0; width: 32px; height: 100%; min-height: 48px;
+    border: none; background: var(--white); cursor: pointer;
+    color: var(--slate); font-size: 1rem; display: flex;
+    align-items: center; justify-content: center;
+    transition: all 0.2s; z-index: 2;
+  }
+  .tabs-scroll-btn:hover { color: var(--navy); background: var(--cream); }
+  .tabs-scroll-btn.left { border-right: 1px solid rgba(201,168,76,0.15); }
+  .tabs-scroll-btn.right { border-left: 1px solid rgba(201,168,76,0.15); }
   .platform-tabs {
     display: flex; max-width: 1100px; margin: 0 auto;
     overflow-x: auto; scrollbar-width: none; padding: 0 20px;
@@ -268,6 +286,7 @@
     header { padding: 12px 16px; }
     .logo { font-size: 1.3rem; }
     .tagline-header { display: none; }
+    .header-nav a { padding: 6px 9px; font-size: 0.76rem; }
     #home { padding: 28px 13px 60px; }
     .hero h1 { font-size: 1.7rem; }
     .hero p { font-size: 0.9rem; }
@@ -293,13 +312,19 @@
 
 <header>
   <div class="logo">Quiz<span>mania</span></div>
-  <div class="tagline-header">Be the Best of You!</div>
+  <nav class="header-nav">
+    <a href="#">Blogs</a>
+    <a href="#">Case Studies</a>
+    <a href="#">Learn Modules</a>
+  </nav>
 </header>
 
 <!-- HOME -->
 <div id="home" class="screen active">
   <div class="platform-tabs-wrap">
+    <button class="tabs-scroll-btn left" onclick="scrollTabs(-150)">&#8249;</button>
     <div class="platform-tabs" id="platformTabs"></div>
+    <button class="tabs-scroll-btn right" onclick="scrollTabs(150)">&#8250;</button>
   </div>
   <div id="homeInner" style="max-width:1100px;margin:0 auto;padding:38px 28px 80px;">
     <div class="hero" id="heroBlock">
@@ -400,11 +425,19 @@
 
 <script>
 // ═══════════════════════════════════════════════════
-//  CONFIGURATION
-//  To add a new platform: add a new object to PLATFORMS.
-//  Set coming: true for placeholder, or coming: false with
-//  a modules array to make it live.
-//  Each quiz needs: label, count, timer, csvUrl, range [start, end]
+//  QUESTION DATA — Edit questions here or replace with your own
+//  Format: { q: "question", opts: ["A","B","C","D"], ans: 0-3 }
+//  ans = index of correct option (0=A, 1=B, 2=C, 3=D)
+// ═══════════════════════════════════════════════════
+
+
+
+// ═══════════════════════════════════════════════════
+//  PLATFORM & MODULE CONFIGURATION
+//  To add a new platform: add an entry to PLATFORMS.
+//  Set coming: false and add a modules array.
+//  Each quiz uses: label, count, timer, dataKey, range
+//  dataKey = key in QUESTION_DATA above
 // ═══════════════════════════════════════════════════
 const PLATFORMS = [
   {
@@ -418,11 +451,11 @@ const PLATFORMS = [
         description: 'Foundations of Google Search Ads — keywords, bidding, ad formats & extensions.',
         icon: '📘', iconClass: 'icon-1', bannerClass: 'theme-1',
         quizzes: [
-          { label:'Quiz 1', count:20, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vREjfmnCJTxgvTxN__RbVaVM9isZPYRO9Ip91GP4SAUG9mk3MsdsPc8nW-Kxy7zScw3Ek5u6Q_RyuAg/pub?gid=300750228&single=true&output=csv', range:[0,20] },
-          { label:'Quiz 2', count:20, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vREjfmnCJTxgvTxN__RbVaVM9isZPYRO9Ip91GP4SAUG9mk3MsdsPc8nW-Kxy7zScw3Ek5u6Q_RyuAg/pub?gid=300750228&single=true&output=csv', range:[20,40] },
-          { label:'Quiz 3', count:20, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vREjfmnCJTxgvTxN__RbVaVM9isZPYRO9Ip91GP4SAUG9mk3MsdsPc8nW-Kxy7zScw3Ek5u6Q_RyuAg/pub?gid=300750228&single=true&output=csv', range:[40,60] },
-          { label:'Quiz 4', count:20, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vREjfmnCJTxgvTxN__RbVaVM9isZPYRO9Ip91GP4SAUG9mk3MsdsPc8nW-Kxy7zScw3Ek5u6Q_RyuAg/pub?gid=300750228&single=true&output=csv', range:[60,80] },
-          { label:'Quiz 5', count:20, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vREjfmnCJTxgvTxN__RbVaVM9isZPYRO9Ip91GP4SAUG9mk3MsdsPc8nW-Kxy7zScw3Ek5u6Q_RyuAg/pub?gid=300750228&single=true&output=csv', range:[80,100] },
+          { label:'Quiz 1', count:20, timer:20, jsonFile:'google-search-basics.json', range:[0,20] },
+          { label:'Quiz 2', count:20, timer:20, jsonFile:'google-search-basics.json', range:[20,40] },
+          { label:'Quiz 3', count:20, timer:20, jsonFile:'google-search-basics.json', range:[40,60] },
+          { label:'Quiz 4', count:20, timer:20, jsonFile:'google-search-basics.json', range:[60,80] },
+          { label:'Quiz 5', count:20, timer:20, jsonFile:'google-search-basics.json', range:[80,100] },
         ]
       },
       {
@@ -430,11 +463,11 @@ const PLATFORMS = [
         description: 'Smart Bidding, attribution, audience strategies & advanced Google Ads features.',
         icon: '🚀', iconClass: 'icon-2', bannerClass: 'theme-2',
         quizzes: [
-          { label:'Quiz 1', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-oF7NWIrjbHtOu__bib195c-2gGSnBrxckSiL958vtBdyexy5eT0bOBKlNN9bwwqdifEfdb_XPaLe/pub?gid=1942013587&single=true&output=csv', range:[0,10] },
-          { label:'Quiz 2', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-oF7NWIrjbHtOu__bib195c-2gGSnBrxckSiL958vtBdyexy5eT0bOBKlNN9bwwqdifEfdb_XPaLe/pub?gid=1942013587&single=true&output=csv', range:[10,20] },
-          { label:'Quiz 3', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-oF7NWIrjbHtOu__bib195c-2gGSnBrxckSiL958vtBdyexy5eT0bOBKlNN9bwwqdifEfdb_XPaLe/pub?gid=1942013587&single=true&output=csv', range:[20,30] },
-          { label:'Quiz 4', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-oF7NWIrjbHtOu__bib195c-2gGSnBrxckSiL958vtBdyexy5eT0bOBKlNN9bwwqdifEfdb_XPaLe/pub?gid=1942013587&single=true&output=csv', range:[30,40] },
-          { label:'Quiz 5', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-oF7NWIrjbHtOu__bib195c-2gGSnBrxckSiL958vtBdyexy5eT0bOBKlNN9bwwqdifEfdb_XPaLe/pub?gid=1942013587&single=true&output=csv', range:[40,50] },
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[40,50] },
         ]
       },
       {
@@ -442,7 +475,7 @@ const PLATFORMS = [
         description: 'Calculate CTR, CPC, CPA, ROAS and key metrics with real-world number problems.',
         icon: '📊', iconClass: 'icon-3', bannerClass: 'theme-3',
         quizzes: [
-          { label:'Quiz 1', count:25, timer:30, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vRcEuM_frKwUxqgs_kaX8KFWFytECbgVKBioJ4AU3lmt4MdolZBfmuDVbPvCPZbWiUG8HMXdjUBtujE/pub?gid=1237903299&single=true&output=csv', range:[0,25] },
+          { label:'Quiz 1', count:25, timer:30, jsonFile:'google-metrics.json', range:[0,25] },
         ]
       },
       {
@@ -450,11 +483,11 @@ const PLATFORMS = [
         description: 'Real-world campaign problems — diagnose and prescribe the right solution.',
         icon: '🧩', iconClass: 'icon-4', bannerClass: 'theme-4',
         quizzes: [
-          { label:'Quiz 1', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQnUsXNgDRSrmGhL9OzMB2R7rLVgaXG1ifLZiKQvovwhSIUicrlLf6bm2c1S_3732DqnnvBRLbQKEB0/pub?gid=668297966&single=true&output=csv', range:[0,10] },
-          { label:'Quiz 2', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQnUsXNgDRSrmGhL9OzMB2R7rLVgaXG1ifLZiKQvovwhSIUicrlLf6bm2c1S_3732DqnnvBRLbQKEB0/pub?gid=668297966&single=true&output=csv', range:[10,20] },
-          { label:'Quiz 3', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQnUsXNgDRSrmGhL9OzMB2R7rLVgaXG1ifLZiKQvovwhSIUicrlLf6bm2c1S_3732DqnnvBRLbQKEB0/pub?gid=668297966&single=true&output=csv', range:[20,30] },
-          { label:'Quiz 4', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQnUsXNgDRSrmGhL9OzMB2R7rLVgaXG1ifLZiKQvovwhSIUicrlLf6bm2c1S_3732DqnnvBRLbQKEB0/pub?gid=668297966&single=true&output=csv', range:[30,40] },
-          { label:'Quiz 5', count:10, timer:20, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQnUsXNgDRSrmGhL9OzMB2R7rLVgaXG1ifLZiKQvovwhSIUicrlLf6bm2c1S_3732DqnnvBRLbQKEB0/pub?gid=668297966&single=true&output=csv', range:[40,50] },
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[40,50] },
         ]
       },
       {
@@ -462,15 +495,15 @@ const PLATFORMS = [
         description: 'Expert-level scenarios — attribution, scripts, VBB & advanced troubleshooting.',
         icon: '⚡', iconClass: 'icon-5', bannerClass: 'theme-5',
         quizzes: [
-          { label:'Quiz 1', count:15, timer:30, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vRhbrJ0dPRiUzVIWAdlO2UWeSLTmiuFH_Ku7SQkkspUmbltRxYXbVyn6WWmzc3QvUh7MB2jjtV6mKuu/pub?gid=1789530149&single=true&output=csv', range:[0,15] },
-          { label:'Quiz 2', count:10, timer:30, csvUrl:'https://docs.google.com/spreadsheets/d/e/2PACX-1vRhbrJ0dPRiUzVIWAdlO2UWeSLTmiuFH_Ku7SQkkspUmbltRxYXbVyn6WWmzc3QvUh7MB2jjtV6mKuu/pub?gid=1789530149&single=true&output=csv', range:[15,25] },
+          { label:'Quiz 1', count:15, timer:30, jsonFile:'google-advanced-phs.json', range:[0,15] },
+          { label:'Quiz 2', count:10, timer:30, jsonFile:'google-advanced-phs.json', range:[15,25] },
         ]
       }
     ]
   },
 
   // ── ADD NEW PLATFORMS BELOW ──
-  // Set coming: false and add a modules array to activate.
+  // When ready: set coming: false, add modules array, add data to QUESTION_DATA above
   { id:'facebook',     label:'Facebook Ads',  icon:'📘', coming:true, comingIcon:'📘', comingDesc:'Facebook & Instagram Ads — campaigns, targeting, creative strategy & analytics.' },
   { id:'amazon',       label:'Amazon Ads',    icon:'📦', coming:true, comingIcon:'📦', comingDesc:'Amazon Sponsored Products, Brands, Display & DSP quiz modules.' },
   { id:'seo',          label:'SEO',           icon:'🌐', coming:true, comingIcon:'🌐', comingDesc:'On-page, off-page, technical SEO and search ranking strategy quizzes.' },
@@ -478,40 +511,6 @@ const PLATFORMS = [
   { id:'branding',     label:'Branding',      icon:'🎨', coming:true, comingIcon:'🎨', comingDesc:'Brand strategy, identity, positioning and measurement quizzes.' },
   { id:'snapchat',     label:'Snapchat Ads',  icon:'👻', coming:true, comingIcon:'👻', comingDesc:'Snapchat Ads Manager, ad formats, targeting and campaign optimization.' },
 ];
-
-// ── CSV CACHE ──
-const csvCache = {};
-async function fetchCSV(url) {
-  if (csvCache[url]) return csvCache[url];
-  const r = await fetch(url);
-  const t = await r.text();
-  csvCache[url] = t;
-  return t;
-}
-
-function parseCSV(text) {
-  const lines = text.trim().split('\n');
-  const questions = [];
-  for (let i = 1; i < lines.length; i++) {
-    const row = [];
-    let cur = '', inQ = false;
-    for (const ch of lines[i]) {
-      if (ch === '"') { inQ = !inQ; }
-      else if (ch === ',' && !inQ) { row.push(cur.trim()); cur = ''; }
-      else { cur += ch; }
-    }
-    row.push(cur.trim());
-    if (!row[0] || row[0] === '') continue;
-    const ans = (row[5] || '').trim().toLowerCase();
-    let ansIdx = 0;
-    if (ans === 'option a' || ans === 'a') ansIdx = 0;
-    else if (ans === 'option b' || ans === 'b') ansIdx = 1;
-    else if (ans === 'option c' || ans === 'c') ansIdx = 2;
-    else if (ans === 'option d' || ans === 'd') ansIdx = 3;
-    questions.push({ q: row[0], opts: [row[1]||'', row[2]||'', row[3]||'', row[4]||''].map(o=>o.trim()), ans: ansIdx });
-  }
-  return questions;
-}
 
 // ── STATE ──
 let activePlatformId = 'google';
@@ -524,6 +523,12 @@ function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length-1; i>0; i--) { const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
   return a;
+}
+
+// ── TAB SCROLL ──
+function scrollTabs(amount) {
+  const el = document.getElementById('platformTabs');
+  el.scrollBy({ left: amount, behavior: 'smooth' });
 }
 
 // ── TABS ──
@@ -565,15 +570,34 @@ function renderHome() {
   mc.appendChild(grid);
 }
 
+// ── JSON CACHE — avoids re-fetching same file twice ──
+const jsonCache = {};
+
+async function fetchJSON(url) {
+  if (jsonCache[url]) return jsonCache[url];
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`Failed to load ${url} (HTTP ${resp.status})`);
+  const data = await resp.json();
+  jsonCache[url] = data;
+  return data;
+}
+
 // ── START QUIZ ──
-async function startQuiz(platformId, moduleId, quizIndex, e) {
+
+
+function startQuiz(platformId, moduleId, quizIndex, e) {
   if (e) e.stopPropagation();
+  _startQuizAsync(platformId, moduleId, quizIndex);
+}
+
+async function _startQuizAsync(platformId, moduleId, quizIndex) {
   const p = PLATFORMS.find(x => x.id === platformId);
   const mod = p.modules.find(m => m.id === moduleId);
   const qz = mod.quizzes[quizIndex];
   currentModule = mod; currentQuizDef = qz;
 
   document.getElementById('loadingState').style.display = 'block';
+  document.getElementById('loadingState').innerHTML = '<div class="loading-spinner"></div><p>Loading questions...</p>';
   document.getElementById('questionArea').style.display = 'none';
   document.getElementById('quizModuleLabel').textContent = mod.title;
   document.getElementById('quizTitle').textContent = `${qz.label} — ${qz.count} Questions`;
@@ -581,27 +605,36 @@ async function startQuiz(platformId, moduleId, quizIndex, e) {
   showScreen('quiz');
 
   try {
-    const csv = await fetchCSV(qz.csvUrl);
-    const all = parseCSV(csv);
+    // Fetch questions from JSON file
+    const allQuestions = await fetchJSON(qz.jsonFile);
     const [start, end] = qz.range;
-    let pool = shuffle(all.slice(start, end));
+    let pool = shuffle(allQuestions.slice(start, end));
+
+    // Shuffle options within each question
     currentQuestions = pool.map(q => {
       const opts = q.opts.map((o,i) => ({text:o, orig:i}));
       const sOpts = shuffle(opts);
       return { q: q.q, opts: sOpts.map(o=>o.text), ans: sOpts.findIndex(o=>o.orig===q.ans) };
     });
+
     userAnswers = new Array(currentQuestions.length).fill(null);
     timeLeft = qz.timer * 60;
+
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('questionArea').style.display = 'block';
     renderQuestion(0);
     startTimer();
+
   } catch(err) {
     document.getElementById('loadingState').innerHTML = `
-      <div style="font-size:1.4rem;margin-bottom:10px;">⚠️</div>
-      <p style="color:var(--danger);font-weight:600;">Failed to load questions.</p>
-      <p style="color:var(--slate);font-size:0.83rem;margin-top:7px;">Check your internet connection and try again.</p>
-      <button class="btn btn-primary" style="margin-top:18px;" onclick="goHome()">← Back</button>`;
+      <div style="font-size:1.8rem;margin-bottom:12px;">⚠️</div>
+      <p style="color:var(--danger);font-weight:600;margin-bottom:8px;">Failed to load questions.</p>
+      <p style="color:var(--slate);font-size:0.82rem;">Make sure the site is hosted and JSON files are in the <strong>data/</strong> folder.</p>
+      <p style="color:#bbb;font-size:0.74rem;margin-top:6px;">${err.message}</p>
+      <div style="display:flex;gap:10px;justify-content:center;margin-top:20px;flex-wrap:wrap;">
+        <button class="btn btn-gold" onclick="_startQuizAsync('${platformId}','${moduleId}',${quizIndex})">↺ Retry</button>
+        <button class="btn btn-outline" onclick="goHome()">← Back</button>
+      </div>`;
   }
 }
 
@@ -719,10 +752,10 @@ function submitQuiz() {
 
 function retryQuiz() {
   const p = PLATFORMS.find(x => x.modules && x.modules.some(m=>m.id===currentModule.id));
-  startQuiz(p.id, currentModule.id, currentModule.quizzes.indexOf(currentQuizDef), null);
+  _startQuizAsync(p.id, currentModule.id, currentModule.quizzes.indexOf(currentQuizDef));
 }
 
-// ── NAV ──
+// ── NAVIGATION ──
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
