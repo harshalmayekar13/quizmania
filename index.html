@@ -26,13 +26,75 @@
   .logo { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 900; color: var(--white); letter-spacing: -0.5px; }
   .logo span { color: var(--gold); }
   .tagline-header { font-size: 0.75rem; color: var(--slate); letter-spacing: 2px; text-transform: uppercase; font-weight: 500; }
-  .header-nav { display: flex; align-items: center; gap: 6px; }
-  .header-nav a {
+  /* ── HEADER NAV ── */
+  .header-nav { display: flex; align-items: center; gap: 4px; }
+  .header-nav > a, .nav-dropdown > .nav-link {
     color: var(--slate); font-size: 0.82rem; font-weight: 500;
     text-decoration: none; padding: 7px 14px; border-radius: 8px;
     transition: all 0.2s; letter-spacing: 0.3px; white-space: nowrap;
+    background: none; border: none; cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
   }
-  .header-nav a:hover { color: var(--white); background: rgba(255,255,255,0.08); }
+  .header-nav > a:hover, .nav-dropdown > .nav-link:hover { color: var(--white); background: rgba(255,255,255,0.08); }
+
+  /* Dropdown */
+  .nav-dropdown { position: relative; }
+  .nav-link { display: flex; align-items: center; gap: 5px; color: var(--slate); }
+  .nav-link .chevron { font-size: 0.65rem; transition: transform 0.2s; }
+  .nav-dropdown:hover .chevron { transform: rotate(180deg); }
+  .dropdown-menu {
+    display: none; position: absolute; top: calc(100% + 8px); right: 0;
+    background: var(--white); border-radius: 12px; min-width: 200px;
+    box-shadow: 0 12px 40px rgba(13,27,42,0.18); border: 1px solid rgba(201,168,76,0.15);
+    overflow: hidden; z-index: 500;
+  }
+  .nav-dropdown:hover .dropdown-menu { display: block; }
+  .dropdown-menu a {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 18px; font-size: 0.83rem; font-weight: 500;
+    color: var(--text); text-decoration: none;
+    transition: background 0.15s; border-bottom: 1px solid rgba(201,168,76,0.08);
+  }
+  .dropdown-menu a:last-child { border-bottom: none; }
+  .dropdown-menu a:hover { background: var(--cream); color: var(--navy); }
+  .dropdown-menu a .d-icon { font-size: 1rem; }
+
+  /* Hamburger */
+  .hamburger {
+    display: none; flex-direction: column; gap: 5px;
+    background: none; border: none; cursor: pointer; padding: 4px;
+  }
+  .hamburger span {
+    display: block; width: 22px; height: 2px;
+    background: var(--white); border-radius: 2px;
+    transition: all 0.3s;
+  }
+  .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* Mobile nav drawer */
+  .mobile-nav {
+    display: none; position: fixed; top: 57px; left: 0; right: 0;
+    background: var(--navy); z-index: 99;
+    flex-direction: column; padding: 12px 0 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(255,255,255,0.07);
+  }
+  .mobile-nav.open { display: flex; }
+  .mobile-nav a {
+    color: var(--slate); font-size: 0.88rem; font-weight: 500;
+    text-decoration: none; padding: 12px 24px;
+    transition: all 0.15s; letter-spacing: 0.3px;
+  }
+  .mobile-nav a:hover { color: var(--white); background: rgba(255,255,255,0.05); }
+  .mobile-nav .mobile-section-label {
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 2px;
+    text-transform: uppercase; color: rgba(255,255,255,0.25);
+    padding: 14px 24px 6px; margin-top: 4px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+  }
+  .mobile-nav a.indented { padding-left: 36px; }
 
   /* SCREENS */
   .screen { display: none; }
@@ -286,7 +348,8 @@
     header { padding: 12px 16px; }
     .logo { font-size: 1.3rem; }
     .tagline-header { display: none; }
-    .header-nav a { padding: 6px 9px; font-size: 0.76rem; }
+    .header-nav { display: none; }
+    .hamburger { display: flex; }
     #home { padding: 28px 13px 60px; }
     .hero h1 { font-size: 1.7rem; }
     .hero p { font-size: 0.9rem; }
@@ -312,13 +375,36 @@
 
 <header>
   <div class="logo">Quiz<span>mania</span></div>
+
+  <!-- Desktop Nav -->
   <nav class="header-nav">
     <a href="#">Blogs</a>
     <a href="#">Case Studies</a>
-    <a href="google-ads-revision.html">Google Ads Revision</a>
-    <a href="meta-ads-revision.html">Meta Ads Revision</a>
+    <div class="nav-dropdown">
+      <button class="nav-link">
+        Learn Modules <span class="chevron">▼</span>
+      </button>
+      <div class="dropdown-menu">
+        <a href="google-ads-revision.html"><span class="d-icon">🔍</span> Google Ads Revision</a>
+        <a href="meta-ads-revision.html"><span class="d-icon">📘</span> Meta Ads Revision</a>
+      </div>
+    </div>
   </nav>
+
+  <!-- Hamburger (mobile) -->
+  <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
 </header>
+
+<!-- Mobile Nav Drawer -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#">Blogs</a>
+  <a href="#">Case Studies</a>
+  <div class="mobile-section-label">Learn Modules</div>
+  <a href="google-ads-revision.html" class="indented">🔍 Google Ads Revision</a>
+  <a href="meta-ads-revision.html" class="indented">📘 Meta Ads Revision</a>
+</div>
 
 <!-- HOME -->
 <div id="home" class="screen active">
@@ -464,11 +550,11 @@ const PLATFORMS = [
         description: 'Smart Bidding, attribution, audience strategies & advanced Google Ads features.',
         icon: '🚀', iconClass: 'icon-2', bannerClass: 'theme-2',
         quizzes: [
-          { label:'Quiz 1', count:10, timer:20, jsonFile:'data/google-search-advanced.json', range:[0,10] },
-          { label:'Quiz 2', count:10, timer:20, jsonFile:'data/google-search-advanced.json', range:[10,20] },
-          { label:'Quiz 3', count:10, timer:20, jsonFile:'data/google-search-advanced.json', range:[20,30] },
-          { label:'Quiz 4', count:10, timer:20, jsonFile:'data/google-search-advanced.json', range:[30,40] },
-          { label:'Quiz 5', count:10, timer:20, jsonFile:'data/google-search-advanced.json', range:[40,50] },
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-search-advanced.json', range:[40,50] },
         ]
       },
       {
@@ -476,7 +562,7 @@ const PLATFORMS = [
         description: 'Calculate CTR, CPC, CPA, ROAS and key metrics with real-world number problems.',
         icon: '📊', iconClass: 'icon-3', bannerClass: 'theme-3',
         quizzes: [
-          { label:'Quiz 1', count:25, timer:30, jsonFile:'data/google-metrics.json', range:[0,25] },
+          { label:'Quiz 1', count:25, timer:30, jsonFile:'google-metrics.json', range:[0,25] },
         ]
       },
       {
@@ -484,11 +570,11 @@ const PLATFORMS = [
         description: 'Real-world campaign problems — diagnose and prescribe the right solution.',
         icon: '🧩', iconClass: 'icon-4', bannerClass: 'theme-4',
         quizzes: [
-          { label:'Quiz 1', count:10, timer:20, jsonFile:'data/google-problem-solution.json', range:[0,10] },
-          { label:'Quiz 2', count:10, timer:20, jsonFile:'data/google-problem-solution.json', range:[10,20] },
-          { label:'Quiz 3', count:10, timer:20, jsonFile:'data/google-problem-solution.json', range:[20,30] },
-          { label:'Quiz 4', count:10, timer:20, jsonFile:'data/google-problem-solution.json', range:[30,40] },
-          { label:'Quiz 5', count:10, timer:20, jsonFile:'data/google-problem-solution.json', range:[40,50] },
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-problem-solution.json', range:[40,50] },
         ]
       },
       {
@@ -496,8 +582,8 @@ const PLATFORMS = [
         description: 'Expert-level scenarios — attribution, scripts, VBB & advanced troubleshooting.',
         icon: '⚡', iconClass: 'icon-5', bannerClass: 'theme-5',
         quizzes: [
-          { label:'Quiz 1', count:15, timer:30, jsonFile:'data/google-advanced-phs.json', range:[0,15] },
-          { label:'Quiz 2', count:10, timer:30, jsonFile:'data/google-advanced-phs.json', range:[15,25] },
+          { label:'Quiz 1', count:15, timer:30, jsonFile:'google-advanced-phs.json', range:[0,15] },
+          { label:'Quiz 2', count:10, timer:30, jsonFile:'google-advanced-phs.json', range:[15,25] },
         ]
       }
     ]
@@ -505,7 +591,26 @@ const PLATFORMS = [
 
   // ── ADD NEW PLATFORMS BELOW ──
   // When ready: set coming: false, add modules array, add data to QUESTION_DATA above
-  { id:'facebook',     label:'Facebook Ads',  icon:'📘', coming:true, comingIcon:'📘', comingDesc:'Facebook & Instagram Ads — campaigns, targeting, creative strategy & analytics.' },
+  {
+    id: 'facebook',
+    label: 'Facebook Ads',
+    icon: '📘',
+    coming: false,
+    modules: [
+      {
+        id: 'metabasics', title: 'Meta Ads Basics',
+        description: 'Fundamentals of Meta advertising — objectives, targeting, bidding, pixels, and ad formats.',
+        icon: '📘', iconClass: 'icon-2', bannerClass: 'theme-2',
+        quizzes: [
+          { label:'Quiz 1', count:20, timer:20, jsonFile:'meta-ads-basics.json', range:[0,20] },
+          { label:'Quiz 2', count:20, timer:20, jsonFile:'meta-ads-basics.json', range:[20,40] },
+          { label:'Quiz 3', count:20, timer:20, jsonFile:'meta-ads-basics.json', range:[40,60] },
+          { label:'Quiz 4', count:20, timer:20, jsonFile:'meta-ads-basics.json', range:[60,80] },
+          { label:'Quiz 5', count:20, timer:20, jsonFile:'meta-ads-basics.json', range:[80,100] },
+        ]
+      }
+    ]
+  },
   { id:'amazon',       label:'Amazon Ads',    icon:'📦', coming:true, comingIcon:'📦', comingDesc:'Amazon Sponsored Products, Brands, Display & DSP quiz modules.' },
   { id:'seo',          label:'SEO',           icon:'🌐', coming:true, comingIcon:'🌐', comingDesc:'On-page, off-page, technical SEO and search ranking strategy quizzes.' },
   { id:'programmatic', label:'Programmatic',  icon:'🤖', coming:true, comingIcon:'🤖', comingDesc:'DSPs, DMPs, RTB, PMPs and programmatic buying strategy quizzes.' },
@@ -583,6 +688,8 @@ async function fetchJSON(url) {
   return data;
 }
 
+
+
 // ── START QUIZ ──
 
 
@@ -607,7 +714,7 @@ async function _startQuizAsync(platformId, moduleId, quizIndex) {
 
   try {
     // Fetch questions from JSON file
-    const allQuestions = await fetchJSON(qz.jsonFile);
+    const allQuestions = await fetchJSON('data/' + qz.jsonFile);
     const [start, end] = qz.range;
     let pool = shuffle(allQuestions.slice(start, end));
 
@@ -771,6 +878,30 @@ function closeMobilePanel() {
   document.getElementById('mobileSidebar').classList.remove('open');
   document.getElementById('panelOverlay').classList.remove('open');
 }
+
+// ── MOBILE NAV ──
+function toggleMobileNav() {
+  const nav = document.getElementById('mobileNav');
+  const btn = document.getElementById('hamburger');
+  nav.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+// Close mobile nav when clicking outside
+document.addEventListener('click', (e) => {
+  const nav = document.getElementById('mobileNav');
+  const btn = document.getElementById('hamburger');
+  if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target)) {
+    nav.classList.remove('open');
+    btn.classList.remove('open');
+  }
+});
+// Close mobile nav on link click
+document.querySelectorAll('.mobile-nav a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.getElementById('hamburger').classList.remove('open');
+  });
+});
 
 // ── INIT ──
 buildPlatformTabs();
