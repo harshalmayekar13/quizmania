@@ -1,0 +1,1002 @@
+[
+  {
+    "q": "What is the highest level of the Meta ad hierarchy?",
+    "opts": [
+      "Ad Set",
+      "Campaign",
+      "Ad",
+      "Business Manager"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "At which level do you set the daily budget?",
+    "opts": [
+      "Ad Level",
+      "Campaign Level",
+      "Account Level",
+      "Pixel Level"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which objective is best for increasing website sales?",
+    "opts": [
+      "Awareness",
+      "Engagement",
+      "Sales",
+      "Traffic"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What does CTR stand for in Meta Ads?",
+    "opts": [
+      "Click-to-Reach",
+      "Click-Through Rate",
+      "Cost-to-Revenue",
+      "Click-to-Response"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What code snippet is placed on a site to track user behavior?",
+    "opts": [
+      "Meta Pixel",
+      "Meta Tag",
+      "Facebook Bot",
+      "Tracking Script"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which metric measures how many unique people saw your ad?",
+    "opts": [
+      "Impressions",
+      "Reach",
+      "Frequency",
+      "Clicks"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Frequency' metric?",
+    "opts": [
+      "Total number of clicks",
+      "Avg. times a person saw the ad",
+      "How often the pixel fires",
+      "Speed of ad delivery"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Where do you manage multiple Meta ad accounts?",
+    "opts": [
+      "Ads Manager",
+      "Business Suite",
+      "Personal Profile",
+      "Creator Studio"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Lookalike Audience'?",
+    "opts": [
+      "People who liked your page",
+      "People similar to your customers",
+      "People who live near you",
+      "People who saw your ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the maximum number of headlines in a single ad?",
+    "opts": [
+      "1",
+      "5",
+      "10",
+      "15"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which placement is specific to mobile devices only?",
+    "opts": [
+      "Desktop News Feed",
+      "Instagram Stories",
+      "Right Column",
+      "Marketplace"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does CAPI stand for?",
+    "opts": [
+      "Client API",
+      "Conversions API",
+      "Cookie API",
+      "Cloud API"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool is used to troubleshoot Pixel issues?",
+    "opts": [
+      "Ads Manager",
+      "Events Manager",
+      "Meta Helper",
+      "Google Analytics"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Learning Phase' in Meta Ads?",
+    "opts": [
+      "Training for employees",
+      "System gathering performance data",
+      "A course on Blueprint",
+      "Checking for ad errors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding strategy aims for the lowest cost per result?",
+    "opts": [
+      "Highest Volume",
+      "Cost Cap",
+      "Bid Cap",
+      "Minimum ROAS"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Broad Targeting'?",
+    "opts": [
+      "Targeting a specific interest",
+      "Targeting with no interests/demographics",
+      "Targeting only past buyers",
+      "Targeting by email list"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which ad format allows a user to swipe through multiple images?",
+    "opts": [
+      "Single Image",
+      "Video",
+      "Carousel",
+      "Collection"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is a 'Custom Audience'?",
+    "opts": [
+      "An audience based on interests",
+      "An audience based on your own data",
+      "An audience Meta suggests",
+      "A random group of users"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'CPM' measure?",
+    "opts": [
+      "Cost per Click",
+      "Cost per 1,000 Impressions",
+      "Cost per Mobile user",
+      "Cost per Message"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which objective is used to find potential customers' info?",
+    "opts": [
+      "Sales",
+      "Lead Generation",
+      "Traffic",
+      "App Promotion"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Advantage+ Campaign Budget'?",
+    "opts": [
+      "Manual budget per ad set",
+      "A budget distributed across ad sets",
+      "A free credit from Meta",
+      "A budget for influencers"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the standard duration for the 'Learning Phase'?",
+    "opts": [
+      "10 conversions",
+      "50 conversions",
+      "100 conversions",
+      "1,000 impressions"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which platform does NOT belong to Meta's ad network?",
+    "opts": [
+      "WhatsApp",
+      "Instagram",
+      "LinkedIn",
+      "Messenger"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Detailed Targeting'?",
+    "opts": [
+      "Targeting by zip code",
+      "Targeting by interests/behaviors",
+      "Targeting by device type",
+      "Targeting by browser"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is an 'Instant Experience'?",
+    "opts": [
+      "A fast-loading mobile ad",
+      "A 1-second video",
+      "A customer service chat",
+      "A live stream ad"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What happens if your ad violates Meta's policies?",
+    "opts": [
+      "Ad is paused",
+      "Ad is disapproved",
+      "Account is deleted instantly",
+      "Nothing"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Spend / Clicks)?",
+    "opts": [
+      "CTR",
+      "CPC",
+      "CPM",
+      "CPA"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Dynamic Creative'?",
+    "opts": [
+      "Ads with moving parts",
+      "Testing multiple assets automatically",
+      "A video editing tool",
+      "An ad that changes colors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Placement' in Meta Ads?",
+    "opts": [
+      "Where the ad appears",
+      "How the ad is paid for",
+      "The time the ad is shown",
+      "The target audience"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which of these is a Retargeting audience?",
+    "opts": [
+      "Website Visitors (past 30 days)",
+      "People interested in 'Coffee'",
+      "Men aged 18-25",
+      "People in Mumbai"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What does 'ROAS' stand for?",
+    "opts": [
+      "Return on Ad Spend",
+      "Reach of Ad System",
+      "Rate of Ad Success",
+      "Revenue on All Sales"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the purpose of the '20% Text Rule' (Legacy)?",
+    "opts": [
+      "Limit ad reach",
+      "Limit text on ad images",
+      "Enforce font sizes",
+      "Increase ad price"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which event is NOT a standard Meta Pixel event?",
+    "opts": [
+      "ViewContent",
+      "AddToCart",
+      "WebsiteLogin",
+      "Purchase"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Automatic Placements'?",
+    "opts": [
+      "Ads showing only on Facebook",
+      "Meta choosing the best placements",
+      "Ads showing only on mobile",
+      "Ads showing at 12 AM"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Dark Post'?",
+    "opts": [
+      "An ad not visible on your Page wall",
+      "A post made at night",
+      "A post with a black background",
+      "A deleted post"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which metric is (Impressions / Reach)?",
+    "opts": [
+      "Frequency",
+      "CTR",
+      "Conversion Rate",
+      "Relevance Score"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Creative Fatigue'?",
+    "opts": [
+      "An editor getting tired",
+      "Performance dropping due to old ads",
+      "A slow loading image",
+      "Using too many colors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Call to Action' (CTA) button?",
+    "opts": [
+      "The ad headline",
+      "The 'Shop Now' or 'Learn More' button",
+      "The website URL",
+      "The comment section"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool helps create Mockups for Meta Ads?",
+    "opts": [
+      "Creative Hub",
+      "Ads Manager",
+      "Events Manager",
+      "Audience Insights"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Attribution Setting'?",
+    "opts": [
+      "The time window to count a conversion",
+      "Choosing the ad font",
+      "Setting the budget",
+      "Selecting the location"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which event signals a finished sale?",
+    "opts": [
+      "InitiateCheckout",
+      "AddPaymentInfo",
+      "Purchase",
+      "ViewContent"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the 'Audience Network'?",
+    "opts": [
+      "Facebook and Instagram",
+      "Apps and sites outside of Meta",
+      "Only WhatsApp users",
+      "People who follow your Page"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Collection Ad'?",
+    "opts": [
+      "A group of 10 videos",
+      "A cover image/video with products",
+      "A set of text-only ads",
+      "A slideshow of logos"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bid strategy sets a maximum amount per bid?",
+    "opts": [
+      "Highest Volume",
+      "Bid Cap",
+      "Cost Cap",
+      "Target ROAS"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Estimated Action Rate'?",
+    "opts": [
+      "How many people will like the ad",
+      "Probability a user takes the desired action",
+      "How fast the pixel fires",
+      "Number of people in a city"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which objective is best for getting video views?",
+    "opts": [
+      "Awareness",
+      "Engagement",
+      "Sales",
+      "App Promotion"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Seed Audience'?",
+    "opts": [
+      "A group of new followers",
+      "The source list for a Lookalike",
+      "A list of negative keywords",
+      "A group of blocked users"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Account Overview' tab for?",
+    "opts": [
+      "Billing only",
+      "Visual summary of performance",
+      "Changing passwords",
+      "Creating new Pixels"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric measures cost for a specific result?",
+    "opts": [
+      "CPC",
+      "Cost Per Result",
+      "CPM",
+      "CTR"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Split Testing' also known as?",
+    "opts": [
+      "A/B Testing",
+      "Multi-Testing",
+      "Dual-Campaign",
+      "CBO"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What does 'VTC' stand for in Meta?",
+    "opts": [
+      "View-Through Conversion",
+      "Value-to-Click",
+      "Voice-to-Chat",
+      "Video-to-Customer"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Where do you set the 'Schedule' for ads?",
+    "opts": [
+      "Campaign Level",
+      "Ad Set Level",
+      "Ad Level",
+      "Business Info"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Interest Intersecting'?",
+    "opts": [
+      "Targeting one interest",
+      "Targeting people who must match two interests",
+      "Targeting everyone",
+      "Removing all interests"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which is a 'Mid-Funnel' objective?",
+    "opts": [
+      "Awareness",
+      "Engagement/Traffic",
+      "Purchase",
+      "Loyalty"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the primary use of 'Ads Reporting'?",
+    "opts": [
+      "Creating ads",
+      "Analyzing and exporting data",
+      "Setting budgets",
+      "Fixing Pixel code"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Conversion Value'?",
+    "opts": [
+      "The price of a click",
+      "The monetary worth of a conversion",
+      "The cost of an ad",
+      "The number of likes"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which platform allows you to reply to ad comments?",
+    "opts": [
+      "Business Suite",
+      "Ads Manager",
+      "Events Manager",
+      "Account Quality"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Mobile App Install' objective for?",
+    "opts": [
+      "Getting website clicks",
+      "Driving users to download an app",
+      "Increasing Page likes",
+      "Playing a video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'CPA' stand for?",
+    "opts": [
+      "Cost per Action",
+      "Click per Ad",
+      "Cost per Audience",
+      "Cost per Account"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the 'Quality Ranking' for an ad?",
+    "opts": [
+      "The budget amount",
+      "Ad's perceived quality vs. competitors",
+      "The number of followers",
+      "The image resolution"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which feature allows you to test different ad versions?",
+    "opts": [
+      "Dynamic Creative",
+      "Single Image Ad",
+      "Text Overlay",
+      "Page Post"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Lead Center'?",
+    "opts": [
+      "A place to buy leads",
+      "A tool to manage and contact leads",
+      "A tutorial on marketing",
+      "A billing section"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Traffic' objective best for?",
+    "opts": [
+      "Getting sales",
+      "Getting clicks to a landing page",
+      "Getting Page likes",
+      "Increasing reach"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Advantage+ Placements'?",
+    "opts": [
+      "Manual placement selection",
+      "System automatically choosing placements",
+      "Only Instagram Stories",
+      "Only Facebook News Feed"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Value-Based Lookalike'?",
+    "opts": [
+      "People similar to high-spending customers",
+      "People who like free stuff",
+      "People who never buy",
+      "People with no email"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which metric tells you if people find your ad relevant?",
+    "opts": [
+      "Engagement Rate",
+      "Spend",
+      "Reach",
+      "Impressions"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Attribution'?",
+    "opts": [
+      "Giving credit to an ad for a result",
+      "Writing an ad headline",
+      "Choosing a currency",
+      "Deleting a pixel"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'User-Defined Event'?",
+    "opts": [
+      "A standard event like Purchase",
+      "A custom event defined by the advertiser",
+      "A system error",
+      "A button click"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which objective is for local store visits?",
+    "opts": [
+      "Awareness",
+      "Awareness/Store Traffic (Legacy)",
+      "Sales",
+      "App Promotion"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Bidding'?",
+    "opts": [
+      "Paying for followers",
+      "How you compete in the ad auction",
+      "Writing ad copy",
+      "Designing images"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Creative' in an ad?",
+    "opts": [
+      "The budget",
+      "The visual and text elements",
+      "The target audience",
+      "The pixel code"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Dayparting' in Meta?",
+    "opts": [
+      "Running ads 24/7",
+      "Scheduling ads for specific times",
+      "Deleting ads at night",
+      "Running ads only on Monday"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Advantage+ Audience'?",
+    "opts": [
+      "Manual targeting",
+      "Meta's AI-driven targeting",
+      "A list of influencers",
+      "A group of teenagers"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which is a 'Core Audience'?",
+    "opts": [
+      "Custom Audience",
+      "Lookalike Audience",
+      "Demographic/Interest based audience",
+      "Re-marketing list"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Manual Bidding'?",
+    "opts": [
+      "Meta sets the price",
+      "Advertiser sets the max bid/cost",
+      "It is free",
+      "Bidding with a physical card"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Frequency Capping'?",
+    "opts": [
+      "Limiting total spend",
+      "Limiting times a user sees an ad",
+      "Limiting the number of ads",
+      "Limiting the headline length"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Estimated Action Rate' primarily?",
+    "opts": [
+      "A guess on likes",
+      "System's prediction of a conversion",
+      "The speed of a video",
+      "The number of comments"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which section shows if your account is restricted?",
+    "opts": [
+      "Account Quality",
+      "Ads Manager",
+      "Billing",
+      "Audiences"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Catalog Sales'?",
+    "opts": [
+      "Selling physical catalogs",
+      "Showing products from an uploaded file",
+      "A type of video ad",
+      "Selling services only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Primary Text' refer to?",
+    "opts": [
+      "The ad headline",
+      "The main text above/below the visual",
+      "The website URL",
+      "The CTA button"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Conversions / Clicks)?",
+    "opts": [
+      "CTR",
+      "Conversion Rate",
+      "ROAS",
+      "Frequency"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Post Engagement'?",
+    "opts": [
+      "A user buying a product",
+      "Likes, comments, and shares",
+      "A user visiting the site",
+      "A user deleting the app"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'AEM' in Meta Ads?",
+    "opts": [
+      "Aggregated Event Measurement",
+      "Ad Engagement Metric",
+      "Account Error Message",
+      "Auto Event Manager"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which placement is best for 'Vertical' video?",
+    "opts": [
+      "Right Column",
+      "Reels/Stories",
+      "Desktop News Feed",
+      "Marketplace"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Brand Lift' study?",
+    "opts": [
+      "A survey to measure brand awareness",
+      "A way to increase bids",
+      "A tool for logo design",
+      "A billing report"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Conversion Window'?",
+    "opts": [
+      "The size of the browser",
+      "The time between click and conversion",
+      "The time to load a page",
+      "The length of a video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which is NOT a Meta targeting category?",
+    "opts": [
+      "Interests",
+      "Behaviors",
+      "Height/Weight",
+      "Demographics"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'DCO'?",
+    "opts": [
+      "Dynamic Creative Optimization",
+      "Digital Click Only",
+      "Data Conversion Order",
+      "Direct Campaign Only"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Instant Form'?",
+    "opts": [
+      "A form on a website",
+      "A lead form within the Facebook app",
+      "A paper form",
+      "An email newsletter"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Placement Asset Customization'?",
+    "opts": [
+      "Using one image for all",
+      "Using different images for different placements",
+      "Deleting all images",
+      "Changing the budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric shows total ad cost?",
+    "opts": [
+      "CPM",
+      "Amount Spent",
+      "CTR",
+      "Reach"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Page Likes' objective (Legacy)?",
+    "opts": [
+      "To get more comments",
+      "To get more followers for a Page",
+      "To get more sales",
+      "To get more video views"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Event Match Quality'?",
+    "opts": [
+      "The color of the pixel",
+      "How well server/browser data matches",
+      "The number of clicks",
+      "The speed of the server"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool lets you see what ads competitors run?",
+    "opts": [
+      "Ads Manager",
+      "Meta Ad Library",
+      "Events Manager",
+      "Business Suite"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Engagement Custom Audience'?",
+    "opts": [
+      "People who visited a site",
+      "People who interacted with your Page/Ads",
+      "People who live in USA",
+      "People with high income"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Reach and Frequency' buying?",
+    "opts": [
+      "Auction-based",
+      "Fixed price and guaranteed reach",
+      "Free ads",
+      "Bidding on clicks only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Advantage+ Creative'?",
+    "opts": [
+      "Manual image editing",
+      "Meta's AI optimizing the image/video",
+      "A professional photographer",
+      "A stock photo site"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Clicks / Impressions)?",
+    "opts": [
+      "Frequency",
+      "CTR",
+      "CPC",
+      "CPM"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Commerce Manager'?",
+    "opts": [
+      "Managing ads",
+      "Managing catalogs and shops",
+      "Managing billing",
+      "Managing employees"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Clicks / Impressions)?",
+    "opts": [
+      "Frequency",
+      "CTR",
+      "CPC",
+      "CPM"
+    ],
+    "ans": 1
+  }
+]
