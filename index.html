@@ -41,14 +41,20 @@
   .nav-dropdown { position: relative; }
   .nav-link { display: flex; align-items: center; gap: 5px; color: var(--slate); }
   .nav-link .chevron { font-size: 0.65rem; transition: transform 0.2s; }
-  .nav-dropdown:hover .chevron { transform: rotate(180deg); }
+  .nav-dropdown.open .chevron { transform: rotate(180deg); }
   .dropdown-menu {
-    display: none; position: absolute; top: calc(100% + 8px); right: 0;
-    background: var(--white); border-radius: 12px; min-width: 200px;
-    box-shadow: 0 12px 40px rgba(13,27,42,0.18); border: 1px solid rgba(201,168,76,0.15);
-    overflow: hidden; z-index: 500;
+    display: none; position: absolute; top: 100%; right: 0;
+    padding-top: 8px; /* invisible bridge — no gap where hover can be lost */
+    background: transparent;
+    z-index: 500; min-width: 200px;
   }
-  .nav-dropdown:hover .dropdown-menu { display: block; }
+  .dropdown-inner {
+    background: var(--white); border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(13,27,42,0.18);
+    border: 1px solid rgba(201,168,76,0.15);
+    overflow: hidden;
+  }
+  .nav-dropdown.open .dropdown-menu { display: block; }
   .dropdown-menu a {
     display: flex; align-items: center; gap: 10px;
     padding: 12px 18px; font-size: 0.83rem; font-weight: 500;
@@ -380,13 +386,15 @@
   <nav class="header-nav">
     <a href="#">Blogs</a>
     <a href="#">Case Studies</a>
-    <div class="nav-dropdown">
-      <button class="nav-link">
+    <div class="nav-dropdown" id="learnDropdown">
+      <button class="nav-link" onclick="toggleLearnMenu(event)">
         Learn Modules <span class="chevron">▼</span>
       </button>
       <div class="dropdown-menu">
-        <a href="google-ads-revision.html"><span class="d-icon">🔍</span> Google Ads Revision</a>
-        <a href="meta-ads-revision.html"><span class="d-icon">📘</span> Meta Ads Revision</a>
+        <div class="dropdown-inner">
+          <a href="google-ads-revision.html"><span class="d-icon">🔍</span> Google Ads Revision</a>
+          <a href="meta-ads-revision.html"><span class="d-icon">📘</span> Meta Ads Revision</a>
+        </div>
       </div>
     </div>
   </nav>
@@ -584,6 +592,66 @@ const PLATFORMS = [
         quizzes: [
           { label:'Quiz 1', count:15, timer:30, jsonFile:'google-advanced-phs.json', range:[0,15] },
           { label:'Quiz 2', count:10, timer:30, jsonFile:'google-advanced-phs.json', range:[15,25] },
+        ]
+      },
+      {
+        id: 'gdisplay', title: 'Google Display Ads',
+        description: 'GDN targeting, responsive display ads, remarketing, vCPM bidding & programmatic basics.',
+        icon: '🖼️', iconClass: 'icon-3', bannerClass: 'theme-3',
+        quizzes: [
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-display-ads.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-display-ads.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-display-ads.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-display-ads.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-display-ads.json', range:[40,50] },
+        ]
+      },
+      {
+        id: 'gvideo', title: 'Google Video Ads',
+        description: 'YouTube ad formats, CPV, bumper ads, TrueView, brand lift & video sequencing.',
+        icon: '▶️', iconClass: 'icon-4', bannerClass: 'theme-4',
+        quizzes: [
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-video-ads.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-video-ads.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-video-ads.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-video-ads.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-video-ads.json', range:[40,50] },
+        ]
+      },
+      {
+        id: 'gdemandgen', title: 'Demand Gen Campaigns',
+        description: 'Demand Gen campaigns, Lookalike Segments, YouTube/Discover/Gmail placements & creatives.',
+        icon: '💡', iconClass: 'icon-5', bannerClass: 'theme-5',
+        quizzes: [
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-demand-gen.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-demand-gen.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-demand-gen.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-demand-gen.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-demand-gen.json', range:[40,50] },
+        ]
+      },
+      {
+        id: 'gshopping', title: 'Google Shopping Ads',
+        description: 'Merchant Center, product feeds, GTIN, Custom Labels, feed rules & Shopping bidding.',
+        icon: '🛍️', iconClass: 'icon-1', bannerClass: 'theme-1',
+        quizzes: [
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-shopping-ads.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-shopping-ads.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-shopping-ads.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-shopping-ads.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-shopping-ads.json', range:[40,50] },
+        ]
+      },
+      {
+        id: 'gpmax', title: 'Performance Max Campaigns',
+        description: 'PMax asset groups, audience signals, search themes, value-based bidding & insights.',
+        icon: '⚡', iconClass: 'icon-2', bannerClass: 'theme-2',
+        quizzes: [
+          { label:'Quiz 1', count:10, timer:20, jsonFile:'google-pmax.json', range:[0,10] },
+          { label:'Quiz 2', count:10, timer:20, jsonFile:'google-pmax.json', range:[10,20] },
+          { label:'Quiz 3', count:10, timer:20, jsonFile:'google-pmax.json', range:[20,30] },
+          { label:'Quiz 4', count:10, timer:20, jsonFile:'google-pmax.json', range:[30,40] },
+          { label:'Quiz 5', count:10, timer:20, jsonFile:'google-pmax.json', range:[40,50] },
         ]
       }
     ]
@@ -878,6 +946,26 @@ function closeMobilePanel() {
   document.getElementById('mobileSidebar').classList.remove('open');
   document.getElementById('panelOverlay').classList.remove('open');
 }
+
+// ── LEARN DROPDOWN ──
+function toggleLearnMenu(e) {
+  e.stopPropagation();
+  const dropdown = document.getElementById('learnDropdown');
+  dropdown.classList.toggle('open');
+}
+// Close when clicking anywhere outside
+document.addEventListener('click', (e) => {
+  const dropdown = document.getElementById('learnDropdown');
+  if (dropdown && !dropdown.contains(e.target)) {
+    dropdown.classList.remove('open');
+  }
+});
+// Close when pressing Escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.getElementById('learnDropdown')?.classList.remove('open');
+  }
+});
 
 // ── MOBILE NAV ──
 function toggleMobileNav() {
