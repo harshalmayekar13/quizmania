@@ -1,0 +1,502 @@
+[
+  {
+    "q": "What is the primary bidding model for 'Skippable In-stream' ads?",
+    "opts": [
+      "CPC",
+      "CPV (Cost Per View)",
+      "vCPM",
+      "CPA"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How long is a 'Bumper Ad'?",
+    "opts": [
+      "15 seconds",
+      "6 seconds",
+      "30 seconds",
+      "5 seconds"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "At what point is a 'View' counted for a video longer than 30 seconds?",
+    "opts": [
+      "After 5 seconds",
+      "At 30 seconds or interaction",
+      "At 1 minute",
+      "When the ad starts"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CPV: Total Spend is ₹10,000 and you received 2,500 Views.",
+    "opts": [
+      "₹2",
+      "₹4",
+      "₹10",
+      "₹0.50"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does VAST stand for in technical video advertising?",
+    "opts": [
+      "Video Ad Sync Tech",
+      "Video Ad Serving Template",
+      "Video Asset Storage Tool",
+      "Virtual Ad Slot Type"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which protocol is used to schedule multiple ad breaks (mid-rolls) in a video?",
+    "opts": [
+      "VAST",
+      "VMAP",
+      "VPAID",
+      "HTTP"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "In a 'Skippable In-stream' ad, when does the skip button appear?",
+    "opts": [
+      "After 1 second",
+      "After 5 seconds",
+      "After 10 seconds",
+      "After 30 seconds"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate VTR: 50,000 Impressions and 5,000 Views.",
+    "opts": [
+      "5%",
+      "10%",
+      "2%",
+      "1%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the maximum length for a 'Non-skippable' in-stream ad?",
+    "opts": [
+      "6 seconds",
+      "15–20 seconds",
+      "60 seconds",
+      "5 minutes"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which ad format is best for 'Top of Mind' awareness on the YouTube Home feed?",
+    "opts": [
+      "Search Ads",
+      "Masthead",
+      "Bumper",
+      "Discovery"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Companion Banner'?",
+    "opts": [
+      "A second video",
+      "A static image next to the player",
+      "A subtitle file",
+      "A pop-up link"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Frequency Capping' in Video ads?",
+    "opts": [
+      "Limiting budget",
+      "Limiting times a user sees the ad",
+      "Limiting video length",
+      "Limiting pixels"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Total Cost / Total Impressions) x 1000?",
+    "opts": [
+      "CPV",
+      "CPM",
+      "CTR",
+      "CPA"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is an 'Ad Sequence'?",
+    "opts": [
+      "Random ads",
+      "A series of ads shown in a set order",
+      "A repeating loop",
+      "A video with 5 titles"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What are 'In-Feed Video Ads'?",
+    "opts": [
+      "Plays before a video",
+      "Appears in search results/home",
+      "Pop-up ads",
+      "Sidebar text"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Brand Lift' measurement?",
+    "opts": [
+      "A logo editor",
+      "Survey-based measurement of awareness",
+      "A bidding strategy",
+      "A billing report"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the aspect ratio of a YouTube Short?",
+    "opts": [
+      "16:9",
+      "9:16",
+      "4:5",
+      "1:1"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Outstream' video?",
+    "opts": [
+      "YouTube only ads",
+      "Mobile ads on partner sites/apps",
+      "TV only ads",
+      "Search ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate VCR: 1,000 starts and 400 finished.",
+    "opts": [
+      "4%",
+      "40%",
+      "10%",
+      "0.40%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Active View'?",
+    "opts": [
+      "A playing video",
+      "Measuring if the ad was viewable",
+      "High-speed internet",
+      "A user comment"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which campaign subtype is used to 'Drive Conversions'?",
+    "opts": [
+      "Awareness",
+      "Video Action Campaign",
+      "Bumper",
+      "Outstream"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Call-to-Action (CTA) Overlay'?",
+    "opts": [
+      "An interactive ad element",
+      "A voiceover",
+      "A video thumbnail",
+      "A subtitle"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Earned Views'?",
+    "opts": [
+      "Paid views",
+      "Views of other videos after the ad",
+      "Deleted views",
+      "Views from search"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Lookback Window' for a View-through conversion?",
+    "opts": [
+      "1 day",
+      "Typically 1–30 days (settable)",
+      "1 year",
+      "5 seconds"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool is used for massive bulk edits of YouTube campaigns?",
+    "opts": [
+      "GTM",
+      "Ads Editor",
+      "Merchant Center",
+      "YouTube Studio"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Target CPM' bidding used for in video?",
+    "opts": [
+      "Driving sales",
+      "Maximizing unique reach",
+      "Getting likes",
+      "Saving money"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If you spent ₹20,000 and got 100,000 impressions, what is CPM?",
+    "opts": [
+      "₹20",
+      "₹200",
+      "₹2",
+      "₹40"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'YouTube Select'?",
+    "opts": [
+      "A free program",
+      "Targeting top-tier popular content",
+      "A video app",
+      "A billing plan"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What counts as a 'View' for a video shorter than 30 seconds?",
+    "opts": [
+      "5 seconds",
+      "Completion of the video",
+      "1 second",
+      "Any click"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Co-Viewing'?",
+    "opts": [
+      "Watching two ads",
+      "Multiple people on one Connected TV",
+      "Watching on mobile",
+      "Watching with a friend"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Spend / Conversions)?",
+    "opts": [
+      "CPC",
+      "CPA",
+      "CPV",
+      "VTR"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Contextual' targeting in Video?",
+    "opts": [
+      "Targeting by age",
+      "Targeting based on video content/topic",
+      "Targeting by email",
+      "Targeting by GPS"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If 500 people saw the ad and 50 clicked the CTA, what is the CTR?",
+    "opts": [
+      "1%",
+      "10%",
+      "5%",
+      "0.50%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Non-skippable' bidding?",
+    "opts": [
+      "CPV",
+      "Target CPM",
+      "Max Clicks",
+      "Manual CPC"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'TrueView'?",
+    "opts": [
+      "A camera brand",
+      "Google's brand for skippable ads",
+      "A tracking pixel",
+      "A video editor"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows which YouTube channels your ads played on?",
+    "opts": [
+      "Search Terms",
+      "Placements Report",
+      "Audience Report",
+      "Device Report"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Creative Analytics' for video?",
+    "opts": [
+      "Budgeting",
+      "Seeing where users drop off in the video",
+      "Changing colors",
+      "Finding keywords"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which format is best for mobile 'Vertical' viewing?",
+    "opts": [
+      "Masthead",
+      "Shorts / Vertical Video",
+      "16:9 Video",
+      "Sidebar ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Skippable In-stream' max length?",
+    "opts": [
+      "6 seconds",
+      "No maximum (within reason)",
+      "15 seconds",
+      "20 seconds"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If you want to increase 'Ad Recall,' which tool do you use?",
+    "opts": [
+      "Keyword Planner",
+      "Brand Lift Survey",
+      "Reach Planner",
+      "Merchant Center"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Teaser' ad in sequencing?",
+    "opts": [
+      "A 30s ad",
+      "A short (e.g. Bumper) to build interest",
+      "A text ad",
+      "A pop-up"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate VTR if impressions are 1,00,000 and views are 1,500.",
+    "opts": [
+      "1.50%",
+      "15%",
+      "0.15%",
+      "0.50%"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Inventory Mode'?",
+    "opts": [
+      "Budget limit",
+      "Choosing content types (Expanded, Standard, Limited)",
+      "Selling products",
+      "Coding"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Target CPM' best for?",
+    "opts": [
+      "Getting sales",
+      "Maximizing unique reach",
+      "Getting likes",
+      "Saving money"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Parallel Tracking'?",
+    "opts": [
+      "Two ads at once",
+      "Loading tracking in the background",
+      "Two budgets",
+      "Two accounts"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If a user watches 10 seconds of a 15-second skippable ad and skips, do you pay?",
+    "opts": [
+      "Yes",
+      "No (For CPV)",
+      "Only 50%",
+      "Only if they click"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Life Events' targeting?",
+    "opts": [
+      "Targeting by age",
+      "Targeting people moving/getting married",
+      "Targeting by job",
+      "Targeting by name"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the maximum file size for a YouTube upload?",
+    "opts": [
+      "1 GB",
+      "128 GB",
+      "500 MB",
+      "10 MB"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Bidding on Clicks' in video?",
+    "opts": [
+      "Standard for all",
+      "Only for specific formats like Outstream",
+      "Impossible",
+      "Only for Mastheads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Path' in Ad Sequencing?",
+    "opts": [
+      "The URL",
+      "The logic (e.g., Ad A -> Ad B)",
+      "The location",
+      "The budget"
+    ],
+    "ans": 1
+  }
+]

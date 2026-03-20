@@ -1,0 +1,502 @@
+[
+  {
+    "q": "What is the primary purpose of the Google Display Network (GDN)?",
+    "opts": [
+      "Direct Search Intent",
+      "Passive Brand Awareness",
+      "Keyword Research",
+      "Website Hosting"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which targeting method shows ads based on the content of the webpage?",
+    "opts": [
+      "Placement",
+      "Contextual",
+      "Demographic",
+      "Interest"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'View-through Conversion' (VTC)?",
+    "opts": [
+      "Conversion after a click",
+      "Conversion after seeing but not clicking",
+      "Conversion from a call",
+      "Conversion from a video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CTR: 200,000 Impressions and 1,000 Clicks.",
+    "opts": [
+      "0.50%",
+      "5%",
+      "0.05%",
+      "2%"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the standard aspect ratio for a Square image in RDA?",
+    "opts": [
+      "1.91:1",
+      "4:5",
+      "1:1",
+      "9:16"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which metric is calculated as (Cost / Viewable Impressions) x 1000?",
+    "opts": [
+      "CPC",
+      "vCPM",
+      "CPA",
+      "ROAS"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "A user visits your site and later sees your ad on a blog. This is:",
+    "opts": [
+      "Prospecting",
+      "Remarketing",
+      "Geo-fencing",
+      "Topic targeting"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Frequency Capping' control?",
+    "opts": [
+      "The total budget",
+      "The max bid per click",
+      "How often a user sees the ad",
+      "The ad's font size"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "Which ad format automatically adjusts its size/appearance to fit space?",
+    "opts": [
+      "HTML5 Banner",
+      "Responsive Display Ad (RDA)",
+      "Text Ad",
+      "Lightbox"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'vCPM' bidding?",
+    "opts": [
+      "Value-based CPC",
+      "Viewable Cost Per Mille",
+      "Virtual CPM",
+      "Video CPM"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If you spend ₹10,000 and get 500,000 impressions, what is the CPM?",
+    "opts": [
+      "₹20",
+      "₹50",
+      "₹200",
+      "₹5"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Which targeting type lets you reach users by specific website URLs?",
+    "opts": [
+      "Keywords",
+      "Managed Placements",
+      "Topics",
+      "Affinities"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the character limit for a Display 'Long Headline'?",
+    "opts": [
+      "30",
+      "25",
+      "90",
+      "150"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "'In-Market' audiences consist of people who:",
+    "opts": [
+      "Like a specific brand",
+      "Are actively researching to buy",
+      "Live in a certain city",
+      "Are over 50 years old"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is an 'Affinity' audience?",
+    "opts": [
+      "People ready to buy now",
+      "People with long-term interests",
+      "People who clicked today",
+      "People who saw the logo"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Optimized Targeting' setting?",
+    "opts": [
+      "Manual targeting only",
+      "AI finding users beyond your signals",
+      "Using only keywords",
+      "Pausing ads at night"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool is used to create and test custom HTML5 ads?",
+    "opts": [
+      "Google Ads Editor",
+      "Google Web Designer",
+      "Merchant Center",
+      "Keyword Planner"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does the 'Above the fold' placement refer to?",
+    "opts": [
+      "Bottom of the page",
+      "Content visible without scrolling",
+      "In the sidebar",
+      "Inside a video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CPA: Total Spend ₹15,000 and 30 Conversions.",
+    "opts": [
+      "₹500",
+      "₹450",
+      "₹1,500",
+      "₹150"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What are 'Standard Image Ads'?",
+    "opts": [
+      "Automated ads",
+      "Static ads with fixed dimensions",
+      "Text-only ads",
+      "Video pop-ups"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which setting prevents ads on sensitive/adult content?",
+    "opts": [
+      "Bid limits",
+      "Content Exclusions",
+      "Frequency cap",
+      "Audience signals"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Dynamic Remarketing'?",
+    "opts": [
+      "Showing same ad to all",
+      "Showing specific products viewed",
+      "Using only video",
+      "Changing the bid hourly"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "A 'Viewable Impression' for a static ad requires:",
+    "opts": [
+      "100% pixels for 1s",
+      "50% pixels for 1s",
+      "1% pixels for 5s",
+      "Any impression"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding strategy is best for 'Brand Awareness'?",
+    "opts": [
+      "Target CPA",
+      "Target ROAS",
+      "vCPM",
+      "Max Conversions"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Custom Intent' (Custom Segments)?",
+    "opts": [
+      "Targeting by age",
+      "Keywords/URLs users recently searched",
+      "Targeting by name",
+      "Targeting by salary"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If your ROI is 300%, and you spent ₹2,000, what is your profit?",
+    "opts": [
+      "₹6,000",
+      "₹4,000",
+      "₹2,000",
+      "₹8,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Managed Placement'?",
+    "opts": [
+      "An ad group",
+      "A specific site/app you choose",
+      "A Google employee",
+      "A billing method"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which file format is NOT allowed for Display image ads?",
+    "opts": [
+      "JPG",
+      "PNG",
+      "TIFF",
+      "GIF"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Audience Expansion'?",
+    "opts": [
+      "Targeting more countries",
+      "Finding similar users to your signal",
+      "Increasing font size",
+      "Adding more headlines"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "'Click-through Conversion' happens when a user:",
+    "opts": [
+      "Sees the ad only",
+      "Clicks the ad and then converts",
+      "Closes the ad",
+      "Reports the ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the max file size for a Display image ad?",
+    "opts": [
+      "150 KB",
+      "1 MB",
+      "500 KB",
+      "5 MB"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Contextual' targeting?",
+    "opts": [
+      "Based on user's name",
+      "Based on site's keywords/topics",
+      "Based on user's bank",
+      "Based on GPS"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Conversion Rate: 5,000 Clicks and 100 Conversions.",
+    "opts": [
+      "1%",
+      "2%",
+      "5%",
+      "10%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tab shows which apps served your Display ad?",
+    "opts": [
+      "Settings",
+      "Placements",
+      "Keywords",
+      "Devices"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Banner Blindness'?",
+    "opts": [
+      "An ad error",
+      "Users ignoring ad-like elements",
+      "A browser setting",
+      "High brightness"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Dynamic Prospecting'?",
+    "opts": [
+      "Targeting visitors",
+      "Using a feed to find new customers",
+      "Deleting users",
+      "Changing prices"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Programmatic' advertising?",
+    "opts": [
+      "Manual bidding",
+      "Automated auction-based buying",
+      "Calling a publisher",
+      "Hiring a coder"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If 10% of users click, and 1,000 see the ad, how many clicks?",
+    "opts": [
+      "10",
+      "100",
+      "1",
+      "50"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "'Asset Reporting' rates ads as:",
+    "opts": [
+      "1 to 10",
+      "Low, Good, Best",
+      "Active or Passive",
+      "Red or Green"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Life Events' targeting?",
+    "opts": [
+      "Targeting by job",
+      "Targeting (e.g.) new business owners",
+      "Targeting by height",
+      "Targeting by hobby"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Impressions / Reach)?",
+    "opts": [
+      "Frequency",
+      "CTR",
+      "ROAS",
+      "CPM"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'First-party data' in Display?",
+    "opts": [
+      "Data from Google",
+      "Data you own (CRM, etc.)",
+      "Data from news sites",
+      "Data from rivals"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'GDN'?",
+    "opts": [
+      "Global Data Node",
+      "Google Display Network",
+      "General Delivery Net",
+      "Google Device Node"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If CPC is ₹5 and CTR is 2%, what is the CPM?",
+    "opts": [
+      "₹10",
+      "₹100",
+      "₹1,000",
+      "₹50"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Smart Display'?",
+    "opts": [
+      "Ads for TVs",
+      "Automated campaigns (Creative/Bid)",
+      "Ads that talk",
+      "Search Ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows overlap with competitors?",
+    "opts": [
+      "Search Terms",
+      "Auction Insights",
+      "Location Report",
+      "Device Report"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Cross-Device' conversion?",
+    "opts": [
+      "Clicks on PC, buys on Phone",
+      "Clicks two ads",
+      "Clicks twice",
+      "Buys two items"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Parallel Tracking' for Display?",
+    "opts": [
+      "Running two ads",
+      "Loading tracking in background",
+      "Using two budgets",
+      "Using two accounts"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding is strictly 'Auction-time'?",
+    "opts": [
+      "Manual CPC",
+      "Smart Bidding (tCPA/tROAS)",
+      "Flat rate",
+      "Monthly billing"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Standard Deviation' in experiments used for?",
+    "opts": [
+      "Budget health",
+      "Statistical significance",
+      "CTR",
+      "Number of images"
+    ],
+    "ans": 1
+  }
+]

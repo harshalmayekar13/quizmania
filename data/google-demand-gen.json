@@ -1,0 +1,502 @@
+[
+  {
+    "q": "Demand Gen is the evolved version of which legacy Google campaign type?",
+    "opts": [
+      "Search",
+      "Discovery",
+      "Display",
+      "Video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Where do Demand Gen ads primarily appear?",
+    "opts": [
+      "Only on Google Search",
+      "YouTube, Discover, and Gmail",
+      "Only on third-party apps",
+      "Only on Google Maps"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which audience feature is exclusive to Demand Gen campaigns?",
+    "opts": [
+      "Custom Intent",
+      "Lookalike Segments",
+      "Demographic Targeting",
+      "Topic Targeting"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the primary focus of Demand Gen compared to PMax?",
+    "opts": [
+      "Pure automation",
+      "Social-first, high-impact creatives",
+      "Search keyword volume",
+      "Text-only ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Lookalike Segment' based on?",
+    "opts": [
+      "A random group",
+      "A 'seed' list (e.g., customer list)",
+      "Competitor names",
+      "Website colors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CTR: 50,000 Impressions and 2,500 Clicks.",
+    "opts": [
+      "0.50%",
+      "5%",
+      "2.50%",
+      "10%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding strategy is recommended to drive mid-funnel traffic?",
+    "opts": [
+      "Target ROAS",
+      "Maximize Clicks",
+      "Manual CPM",
+      "Bid Cap"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the aspect ratio for 'Shorts' video assets in Demand Gen?",
+    "opts": [
+      "16:9",
+      "9:16",
+      "1:1",
+      "4:3"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Can you use 'Product Feeds' from Merchant Center in Demand Gen?",
+    "opts": [
+      "No",
+      "Yes, to show product catalogs",
+      "Only for Search",
+      "Only for Gmail"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Engagement' metric in Demand Gen?",
+    "opts": [
+      "A sale only",
+      "Clicks, swipes, or interactions",
+      "A phone call",
+      "A page scroll"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the minimum size for a 'Seed List' to create a Lookalike?",
+    "opts": [
+      "10 users",
+      "1,000 active users (recommended)",
+      "50,000 users",
+      "No minimum"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which ad format allows users to swipe through a series of cards?",
+    "opts": [
+      "Single Image ad",
+      "Carousel ad",
+      "Text ad",
+      "HTML5 ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CPA: Spend is ₹40,000 and you received 80 Leads.",
+    "opts": [
+      "₹50",
+      "₹500",
+      "₹400",
+      "₹5,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does 'Optimized Targeting' do in Demand Gen?",
+    "opts": [
+      "Limits ads to your list",
+      "Finds users outside your list likely to convert",
+      "Deletes inactive users",
+      "Changes the ad font"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Demand Gen ads on YouTube appear in which specific feeds?",
+    "opts": [
+      "Only before videos",
+      "Shorts, In-feed, and Watch Next",
+      "Only on the sidebar",
+      "Only in the search bar"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Engagements / Impressions)?",
+    "opts": [
+      "CTR",
+      "Engagement Rate",
+      "Conversion Rate",
+      "Reach"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Reach' expansion in Lookalikes?",
+    "opts": [
+      "Narrow, Balanced, or Broad",
+      "Fast or Slow",
+      "Red or Green",
+      "1% to 10% only"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "If you want to maximize sales value, which bid strategy is best?",
+    "opts": [
+      "Maximize Clicks",
+      "Maximize Conversion Value",
+      "Target Impression Share",
+      "Manual CPC"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How many headlines can you add to a Demand Gen ad?",
+    "opts": [
+      "1",
+      "5",
+      "15",
+      "10"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the max character limit for a Demand Gen description?",
+    "opts": [
+      "30",
+      "90",
+      "25",
+      "150"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate ROAS: Revenue ₹1,20,000 and Spend ₹30,000.",
+    "opts": [
+      "2x",
+      "4x",
+      "400%",
+      "Both B & C"
+    ],
+    "ans": 3
+  },
+  {
+    "q": "Which tool is used to A/B test creatives in Demand Gen?",
+    "opts": [
+      "Keyword Planner",
+      "Experiments",
+      "Reach Planner",
+      "Google Trends"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Does Demand Gen support 'Lead Form' extensions?",
+    "opts": [
+      "No",
+      "Yes",
+      "Only on Desktop",
+      "Only on Gmail"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Watch Next' placement?",
+    "opts": [
+      "The YouTube homepage",
+      "The feed below/beside a playing video",
+      "A popup ad",
+      "A search result"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Call-to-Action' requirement?",
+    "opts": [
+      "Must be written manually",
+      "Choose from a pre-defined list",
+      "No button allowed",
+      "Only 'Buy Now'"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CPC: Total Spend ₹15,000 for 750 Clicks.",
+    "opts": [
+      "₹10",
+      "₹20",
+      "₹5",
+      "₹15"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Signal' in Demand Gen?",
+    "opts": [
+      "A network error",
+      "Audience data helping AI optimize",
+      "A billing status",
+      "A type of video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Can you exclude 'Placements' in Demand Gen?",
+    "opts": [
+      "Yes",
+      "No (Account-level only)",
+      "Only on YouTube",
+      "Only on Gmail"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which objective is most common for Demand Gen?",
+    "opts": [
+      "Awareness",
+      "Consideration / Traffic",
+      "Search Volume",
+      "Page Speed"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If your CPM is ₹200 and you have 10,000 impressions, what is the cost?",
+    "opts": [
+      "₹20",
+      "₹2,000",
+      "₹200",
+      "₹20,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Discovery' (Legacy) vs Demand Gen 'Video'?",
+    "opts": [
+      "Discovery was static only; Demand Gen is video-first",
+      "Discovery was only Video",
+      "No difference",
+      "Discovery was Search"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is the max file size for a Demand Gen image?",
+    "opts": [
+      "150 KB",
+      "5 MB",
+      "1 MB",
+      "10 MB"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric measures the cost of 1,000 impressions?",
+    "opts": [
+      "CPC",
+      "CPM",
+      "CPV",
+      "CPA"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Lookalike - Balanced'?",
+    "opts": [
+      "Only targets the seed list",
+      "Balances reach and similarity",
+      "Targets the whole country",
+      "Targets competitors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How many images can a Carousel ad have?",
+    "opts": [
+      "1",
+      "Up to 10 cards",
+      "50",
+      "Unlimited"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Engagement Rate: 1,000 Engagements and 20,000 Impressions.",
+    "opts": [
+      "0.50%",
+      "5%",
+      "10%",
+      "2%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Logo' requirement in Demand Gen?",
+    "opts": [
+      "Optional",
+      "Mandatory (1:1 ratio)",
+      "Only for videos",
+      "No logo allowed"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows which creative performed best?",
+    "opts": [
+      "Asset Report",
+      "Search Terms",
+      "Auction Insights",
+      "Location Report"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "If you set a 2% Lookalike Narrow, what does it mean?",
+    "opts": [
+      "Targets 2% of your list",
+      "Targets the most similar 2% of the population",
+      "2% of the budget",
+      "2% CTR"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Campaign Budget Optimization' (CBO) equivalent?",
+    "opts": [
+      "Asset level budget",
+      "Campaign level budget",
+      "Ad group level budget",
+      "Account level budget"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which type of 'Video' is NOT supported?",
+    "opts": [
+      "Shorts",
+      "Horizontal",
+      "Vertical",
+      "Text-only video"
+    ],
+    "ans": 3
+  },
+  {
+    "q": "What is a 'View-through Conversion'?",
+    "opts": [
+      "Sale after click",
+      "Sale after impression with no click",
+      "Sale after a call",
+      "Fake sale"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Business Name' character limit?",
+    "opts": [
+      "15",
+      "25",
+      "90",
+      "10"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding requires a conversion tag to be active?",
+    "opts": [
+      "Max Clicks",
+      "Max Conversions",
+      "Manual CPM",
+      "Viewable CPM"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If CTR is 1% and Clicks are 100, what are the Impressions?",
+    "opts": [
+      "1,000",
+      "10,000",
+      "100,000",
+      "5,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Cross-Device' in Demand Gen?",
+    "opts": [
+      "Swiping on two ads",
+      "Watching on Phone, buying on Tablet",
+      "Using two accounts",
+      "Buying two items"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which placement is specific to the Google App?",
+    "opts": [
+      "Gmail",
+      "Discover Feed",
+      "YouTube Shorts",
+      "Search"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Attribution' in Demand Gen?",
+    "opts": [
+      "Assigning value to touchpoints",
+      "Deleting ads",
+      "Changing fonts",
+      "Setting bids"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "If you double the budget and CPA stays the same, what happened?",
+    "opts": [
+      "Efficiency decreased",
+      "Campaign scaled successfully",
+      "Quality Score dropped",
+      "Ad was paused"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Segment' in Demand Gen?",
+    "opts": [
+      "A video part",
+      "An audience group",
+      "A billing slice",
+      "A search term"
+    ],
+    "ans": 1
+  }
+]

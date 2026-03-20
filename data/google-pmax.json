@@ -1,0 +1,502 @@
+[
+  {
+    "q": "Which campaign types did Performance Max officially replace?",
+    "opts": [
+      "Search & Display",
+      "Smart Shopping & Local",
+      "Video & Discovery",
+      "App & Shopping"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the primary difference between PMax and Standard Search?",
+    "opts": [
+      "PMax uses no keywords",
+      "PMax is goal-based & cross-channel",
+      "Search has no AI",
+      "PMax is only for Video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Final URL Expansion'?",
+    "opts": [
+      "Increasing URL length",
+      "AI selecting the best landing page",
+      "Deleting the website",
+      "Adding UTMs only"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Where are images, videos, and headlines organized in PMax?",
+    "opts": [
+      "Ad Groups",
+      "Asset Groups",
+      "Campaigns",
+      "Product Groups"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is an 'Audience Signal'?",
+    "opts": [
+      "A hard targeting rule",
+      "A suggestion to help AI find users",
+      "A list of blocked users",
+      "A billing alert"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If PMax spent ₹20,000 and generated ₹1,00,000 in revenue, what is the ROAS?",
+    "opts": [
+      "200%",
+      "500%",
+      "5",
+      "Both B & C"
+    ],
+    "ans": 3
+  },
+  {
+    "q": "Where can you add 'Negative Keywords' for a PMax campaign?",
+    "opts": [
+      "Asset Group level",
+      "Account Level (Negative List)",
+      "Ad Group level",
+      "You cannot add them"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which of these is NOT a channel covered by PMax?",
+    "opts": [
+      "YouTube",
+      "Gmail",
+      "LinkedIn",
+      "Google Maps"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is the 'New Customer Acquisition' goal?",
+    "opts": [
+      "Bidding only for new users",
+      "Finding users with no email",
+      "A way to lower bids",
+      "A keyword list"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "How many headlines are allowed in a single Asset Group?",
+    "opts": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What happens if you don't provide a video for PMax?",
+    "opts": [
+      "The ad won't run",
+      "Google auto-generates one",
+      "Only text ads show",
+      "The budget is cut"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows the performance of individual images/text?",
+    "opts": [
+      "Search Terms",
+      "Asset Detail Report",
+      "Placements Report",
+      "Settings"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate ROI: Total Cost is ₹5,000, Total Profit is ₹15,000.",
+    "opts": [
+      "100%",
+      "300%",
+      "200%",
+      "50%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Target ROAS' in the context of PMax?",
+    "opts": [
+      "A limit on clicks",
+      "An automated bid strategy",
+      "A manual bid cap",
+      "A billing method"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What are 'Search Themes' in PMax?",
+    "opts": [
+      "A way to fix ad colors",
+      "A signal to provide keyword intent",
+      "A campaign name",
+      "A list of competitors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tab in Google Ads shows 'Consumer Interest' trends for PMax?",
+    "opts": [
+      "Assets",
+      "Insights",
+      "Settings",
+      "History"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Ad Strength' a measure of?",
+    "opts": [
+      "The bid amount",
+      "Asset quantity, variety, and quality",
+      "Number of clicks",
+      "Account age"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Can PMax be used for 'Lead Generation'?",
+    "opts": [
+      "No, only for sales",
+      "Yes, using Lead Form assets",
+      "Only via YouTube",
+      "Only via Gmail"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Brand Exclusion' used for?",
+    "opts": [
+      "Deleting your logo",
+      "Preventing ads on your brand name",
+      "Blocking all users",
+      "Changing the name"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If a PMax campaign is 'Limited by Budget,' what is the first solution?",
+    "opts": [
+      "Lower the bid",
+      "Increase daily budget",
+      "Delete images",
+      "Add more text"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Data-Driven Attribution' (DDA)?",
+    "opts": [
+      "Last-click only",
+      "AI assigning credit to all touchpoints",
+      "First-click only",
+      "No attribution"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How many 'Long Headlines' are allowed in an Asset Group?",
+    "opts": [
+      "1",
+      "5",
+      "15",
+      "10"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Value-Based Bidding'?",
+    "opts": [
+      "Bidding for the most clicks",
+      "Bidding for highest conversion value",
+      "Bidding for lowest cost",
+      "Bidding for impressions"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Conversion Rate: 10,000 Clicks and 400 Conversions.",
+    "opts": [
+      "0.40%",
+      "4%",
+      "40%",
+      "1%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'URL Exclusion'?",
+    "opts": [
+      "Deleting the site",
+      "Blocking specific pages from PMax",
+      "Changing the domain",
+      "Adding a password"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which 'Asset' is used for PMax physical store goals?",
+    "opts": [
+      "Sitelinks",
+      "Location Assets",
+      "Price Assets",
+      "App Assets"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Smart Bidding' training period?",
+    "opts": [
+      "The first 24 hours",
+      "The Learning Phase (usually 1–2 weeks)",
+      "A Google course",
+      "Setting up billing"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If PMax has 70% 'Lost IS (Rank)', what should you improve?",
+    "opts": [
+      "Budget",
+      "Asset Quality or Bids",
+      "Shipping speed",
+      "Number of URLs"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Can you 'Pin' a headline to Position 1 in PMax?",
+    "opts": [
+      "Yes",
+      "No",
+      "Only for Search",
+      "Only for YouTube"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Diagnostic Insights'?",
+    "opts": [
+      "Billing report",
+      "Tool to see why ads aren't serving",
+      "Competitor list",
+      "Keyword tool"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Customer Match'?",
+    "opts": [
+      "Finding people in stores",
+      "Using your first-party email lists",
+      "Finding similar names",
+      "A dating app"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which metric is (Conversion Value / Cost)?",
+    "opts": [
+      "CPA",
+      "ROAS",
+      "CTR",
+      "CPM"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Final URL Expansion' exclusion?",
+    "opts": [
+      "Blocking the whole site",
+      "Using regex/rules to block pages",
+      "Changing the bid",
+      "Deleting the ad"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How many images can you upload to an Asset Group?",
+    "opts": [
+      "5",
+      "10",
+      "20",
+      "50"
+    ],
+    "ans": 2
+  },
+  {
+    "q": "What is 'Automated Asset' creation?",
+    "opts": [
+      "You write everything",
+      "Google generates assets from your site",
+      "Ads are disabled",
+      "Only video is used"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Cost per Conversion: Spend ₹25,000, Conversions 50.",
+    "opts": [
+      "₹50",
+      "₹500",
+      "₹5,000",
+      "₹250"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Seasonality Adjustment'?",
+    "opts": [
+      "Weather tracking",
+      "Tool for short-term sales/events",
+      "Changing ad fonts",
+      "Deleting old ads"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Can PMax run without a Merchant Center feed?",
+    "opts": [
+      "Yes",
+      "No, it's mandatory",
+      "Only for retail",
+      "Only for apps"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Campaign Level Conversion Goal'?",
+    "opts": [
+      "Global account goal",
+      "Overriding account goals for PMax",
+      "A billing limit",
+      "A list of images"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding strategy is 'Max Conversions' with a tCPA?",
+    "opts": [
+      "Manual",
+      "Smart Bidding",
+      "Portfolio only",
+      "None"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Asset Group' limit per campaign?",
+    "opts": [
+      "1",
+      "100",
+      "10",
+      "1000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Video Action' conversion?",
+    "opts": [
+      "A click on a video",
+      "A conversion after watching",
+      "A like on a video",
+      "A video comment"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Primary Text' in PMax?",
+    "opts": [
+      "The headline",
+      "The description (up to 5)",
+      "The URL",
+      "The button"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If 'Search Term Insights' shows irrelevant terms, what is the fix?",
+    "opts": [
+      "Delete PMax",
+      "Apply Account-level Negatives",
+      "Increase budget",
+      "Change image"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Custom Variable' in Value Rules?",
+    "opts": [
+      "Change bid by city",
+      "Change value by audience/device",
+      "Change ad color",
+      "Change billing date"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which 'Asset' helps show specific site pages?",
+    "opts": [
+      "Location",
+      "Sitelinks",
+      "Callout",
+      "Price"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If Average CPC is ₹40 and you want 100 clicks, budget needed?",
+    "opts": [
+      "₹400",
+      "₹4,000",
+      "₹40,000",
+      "₹40"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Bid Strategy Type' for PMax?",
+    "opts": [
+      "CPC only",
+      "Automated (Value or Conversions)",
+      "CPM only",
+      "Fixed"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Performance Planner'?",
+    "opts": [
+      "A tool to forecast PMax spend/results",
+      "A video editor",
+      "A keyword finder",
+      "A billing tool"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "Does PMax support 'Comparison Shopping Services' (CSS)?",
+    "opts": [
+      "No",
+      "Yes (in eligible countries)",
+      "Only for Search",
+      "Only for YouTube"
+    ],
+    "ans": 1
+  }
+]

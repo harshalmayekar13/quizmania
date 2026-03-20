@@ -1,0 +1,502 @@
+[
+  {
+    "q": "Which platform is used to upload and host the product data feed?",
+    "opts": [
+      "Google Ads",
+      "Google Merchant Center",
+      "Google Analytics",
+      "Google Search Console"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the primary difference between Shopping and Search ads?",
+    "opts": [
+      "Search uses images",
+      "Shopping is based on product feeds; Search on keywords",
+      "Shopping is cheaper",
+      "Search is only for mobile"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What does GTIN stand for?",
+    "opts": [
+      "Google Tracking ID",
+      "Global Trade Item Number",
+      "General Trade Index",
+      "Global Tech Info"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which attribute is mandatory for most branded products to identify the manufacturer part?",
+    "opts": [
+      "Color",
+      "MPN",
+      "Material",
+      "Size"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'Supplemental Feed'?",
+    "opts": [
+      "A main data source",
+      "A secondary feed to fix or add data",
+      "A billing document",
+      "A list of competitors"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate ROAS: Total Sales are ₹20,000 and Ad Spend is ₹4,000.",
+    "opts": [
+      "2x",
+      "5x",
+      "10x",
+      "500%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Google Product Category'?",
+    "opts": [
+      "Your website's menu",
+      "Google's internal product taxonomy",
+      "A list of keywords",
+      "A shipping method"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which attribute determines the landing page the user goes to?",
+    "opts": [
+      "Display_link",
+      "Link",
+      "Redirect_url",
+      "Ad_url"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If a product is 'Disapproved' in GMC, what is the most likely reason?",
+    "opts": [
+      "Low budget",
+      "Policy violation or missing attributes",
+      "High price",
+      "No clicks"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Feed Rules' used for?",
+    "opts": [
+      "Setting budgets",
+      "Modifying feed data without changing the source",
+      "Deleting the account",
+      "Coding the website"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What are 'Custom Labels' (0-4) used for?",
+    "opts": [
+      "Fixing errors",
+      "Categorizing products for bidding (e.g., Best Sellers)",
+      "Changing prices",
+      "Deleting products"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which bidding strategy is most effective for a Shopping campaign with a specific profit goal?",
+    "opts": [
+      "Maximize Clicks",
+      "Target ROAS",
+      "Manual CPM",
+      "Target Impression Share"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Local Inventory Ads' (LIA)?",
+    "opts": [
+      "Ads for online only",
+      "Ads for physical store stock",
+      "Ads for global shipping",
+      "Ads for apps"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Margin: Product Price is ₹1,000 and COGS is ₹700.",
+    "opts": [
+      "10%",
+      "30%",
+      "70%",
+      "100%"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is a 'CSS' in the context of European Shopping ads?",
+    "opts": [
+      "A styling language",
+      "Comparison Shopping Service",
+      "Customer Support System",
+      "Creative Sales Studio"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which attribute is used to show a discounted price in the ad?",
+    "opts": [
+      "Price",
+      "Sale_price",
+      "Discount_value",
+      "Final_price"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the 'Identifier_exists' attribute used for?",
+    "opts": [
+      "To track clicks",
+      "To tell Google if a product has a GTIN/MPN",
+      "To set the budget",
+      "To name the product"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Product Grouping'?",
+    "opts": [
+      "A list of competitors",
+      "Organizing products in Google Ads for bidding",
+      "A shipping rule",
+      "A billing method"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If 'Availability' is set to 'out of stock', what happens to the ad?",
+    "opts": [
+      "It shows a warning",
+      "It stops showing automatically",
+      "It becomes cheaper",
+      "It stays live"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "How many days does it take for a feed to expire if not updated?",
+    "opts": [
+      "7 days",
+      "30 days",
+      "90 days",
+      "365 days"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Break-even ROAS: Your profit margin is 25%.",
+    "opts": [
+      "1",
+      "4",
+      "0.25",
+      "10"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Adult' attribute used for?",
+    "opts": [
+      "To target parents",
+      "To identify sensitive content",
+      "To set age limits for toys",
+      "To increase bids"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which tool helps troubleshoot 'Mismatched Price' errors?",
+    "opts": [
+      "Keyword Planner",
+      "GMC Diagnostics",
+      "Reach Planner",
+      "Google Trends"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Automatic Item Updates'?",
+    "opts": [
+      "Google editing your site",
+      "Google updating GMC price/stock from site schema",
+      "A billing feature",
+      "A keyword tool"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the max character limit for a Product Title?",
+    "opts": [
+      "25",
+      "150",
+      "5,000",
+      "75"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "'Product Type' attribute is used for:",
+    "opts": [
+      "Google's taxonomy",
+      "Your own internal categorization",
+      "Setting the price",
+      "Defining the brand"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the minimum image size for non-apparel shopping items?",
+    "opts": [
+      "10x10 px",
+      "100x100 px",
+      "250x250 px",
+      "800x800 px"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Multi-client Account' (MCA) in GMC?",
+    "opts": [
+      "An account for one store",
+      "An account for agencies to manage multiple stores",
+      "A billing feature",
+      "A social media tool"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate Conversion Value / Cost: Revenue ₹50,000, Spend ₹5,000.",
+    "opts": [
+      "5",
+      "10",
+      "0.5",
+      "100"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Promotion ID' used for?",
+    "opts": [
+      "Tracking employees",
+      "Linking specific discounts to products",
+      "Setting the budget",
+      "Naming the campaign"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which attribute is required for Apparel items but not all products?",
+    "opts": [
+      "Brand",
+      "Size",
+      "Weight",
+      "Price"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Shipping' attribute requirement?",
+    "opts": [
+      "Just the weight",
+      "Accurate cost and country",
+      "The driver's name",
+      "The warehouse address"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If you have two campaigns with the same product, which one wins?",
+    "opts": [
+      "The one with higher bid",
+      "The one with higher Campaign Priority",
+      "The older one",
+      "The one with more images"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Smart Shopping' (Now part of PMax)?",
+    "opts": [
+      "Manual bidding only",
+      "Automated bidding and placement",
+      "Only for YouTube",
+      "Only for Search"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the purpose of 'Condition' attribute?",
+    "opts": [
+      "Weather status",
+      "New, Used, or Refurbished",
+      "Stock level",
+      "Shipping speed"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Calculate CPC: You spent ₹1,000 for 40 clicks.",
+    "opts": [
+      "₹25",
+      "₹40",
+      "₹10",
+      "₹5"
+    ],
+    "ans": 0
+  },
+  {
+    "q": "What is 'Tax' attribute for?",
+    "opts": [
+      "Internal accounting",
+      "Showing accurate total price (US only)",
+      "Setting your profit",
+      "Deleting products"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which report shows what users typed before clicking your Shopping ad?",
+    "opts": [
+      "Products tab",
+      "Search Terms Report",
+      "Auction Insights",
+      "Location Report"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Merchant Center Programs'?",
+    "opts": [
+      "A training course",
+      "Options like Free Listings, Dynamic Remarketing",
+      "A billing plan",
+      "A list of apps"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is the purpose of the 'Brand' attribute?",
+    "opts": [
+      "To name the shop",
+      "To identify the product manufacturer",
+      "To set the ad color",
+      "To increase CTR"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If CTR is 1% and Impressions are 50,000, how many Clicks?",
+    "opts": [
+      "50",
+      "500",
+      "5,000",
+      "1,000"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'GMC Primary Feed'?",
+    "opts": [
+      "A second source",
+      "The main data source for products",
+      "A billing list",
+      "A backup file"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which attribute allows you to group products by 'Color'?",
+    "opts": [
+      "Title",
+      "Color",
+      "Description",
+      "Category"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Inventory Filter' in Google Ads?",
+    "opts": [
+      "A way to block competitors",
+      "Choosing which GMC products to show in a campaign",
+      "A billing filter",
+      "A keyword tool"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "If Spend is ₹5,000 and ROI is 400%, what is the Revenue?",
+    "opts": [
+      "₹1,250",
+      "₹20,000",
+      "₹25,000",
+      "₹5,400"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Image_link' requirement?",
+    "opts": [
+      "Any URL",
+      "Direct link to image, no watermarks",
+      "Link to the product page",
+      "Link to a video"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Mobile_link' used for?",
+    "opts": [
+      "Mobile-only ads",
+      "A mobile-optimized landing page",
+      "Tracking app installs",
+      "Calling the shop"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Which status indicates a product is ready for ads?",
+    "opts": [
+      "Expired",
+      "Active",
+      "Pending",
+      "Disapproved"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "What is 'Transit Time' in Shipping settings?",
+    "opts": [
+      "Time to click the ad",
+      "Time it takes for a package to be delivered",
+      "Time to load a page",
+      "Time to pay a bill"
+    ],
+    "ans": 1
+  },
+  {
+    "q": "Can you use 'Keywords' to target Shopping ads?",
+    "opts": [
+      "Yes",
+      "No (Feed-based)",
+      "Only in the title",
+      "Only for videos"
+    ],
+    "ans": 1
+  }
+]
